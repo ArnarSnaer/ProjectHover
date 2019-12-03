@@ -1040,7 +1040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Waves:
   - EnemiesPerWave: 5
-    Enemy: {fileID: 2500892558904937428, guid: d37bc185cc7ad9041b7fe5b9e7df22fb, type: 3}
+    Enemy: {fileID: 1990894312}
   - EnemiesPerWave: 10
     Enemy: {fileID: 1990894312}
   SpawnPoints:
