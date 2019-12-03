@@ -38,6 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Spawns
+    uniqueID: 3698748515
+    locked: 0
+  - name: Arena
+    uniqueID: 983159569
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
