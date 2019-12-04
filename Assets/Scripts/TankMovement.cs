@@ -22,12 +22,12 @@ public class TankMovement : MonoBehaviour
     void Update()
     {
         // Moving object with left analog stick
-        moveInput = new Vector2(Input.GetAxisRaw(playerIndex + " Horizontal"), Input.GetAxisRaw(playerIndex + " Vertical"));
+        moveInput = new Vector2(Input.GetAxisRaw("P" + playerIndex + " Horizontal"), Input.GetAxisRaw("P" + playerIndex + " Vertical"));
         moveVelocity = moveInput * moveSpeed;
 
         // Rotating object with right analog stick
-        float horizontal = Input.GetAxisRaw(playerIndex + " RHorizontal");
-        float vertical = Input.GetAxisRaw(playerIndex + " RVertical");
+        float horizontal = Input.GetAxisRaw("P" + playerIndex + " RHorizontal");
+        float vertical = Input.GetAxisRaw("P" + playerIndex + " RVertical");
         Vector2 RmoveInput = new Vector2(horizontal, vertical);
 
         if (horizontal != 0 && vertical != 0 && RmoveInput.magnitude > deadzone)
