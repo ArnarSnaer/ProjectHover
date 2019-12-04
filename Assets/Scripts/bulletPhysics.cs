@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class bulletPhysics : MonoBehaviour
 {
-    private string[] enemies = {"Base Enemy"};
+    //Add to this array new names of enemy objects or if names of enemies are altered
+    private string[] enemies = {"Base Enemy", "Base Enemy(Clone)"};
     private bool isEnemy(GameObject thing){
         string name = thing.name;
         foreach(string enemy in enemies){
@@ -30,6 +31,10 @@ public class bulletPhysics : MonoBehaviour
                 Destroy (this.gameObject);
                 Destroy (enemy.gameObject);
             }
+            else if(enemy.gameObject.name != "Bullet" ||
+                enemy.gameObject.name == "Bullet(Clone)"){    
+                    Destroy(this.gameObject);
+                }
+            }
         }
-    }
 }
