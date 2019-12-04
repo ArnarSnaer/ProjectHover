@@ -39,13 +39,5 @@ public class BaseAI : MonoBehaviour
         rb.MovePosition((Vector2)transform.position + (direction * speed * Time.deltaTime));
     }
 
-
-    void OnCollisionEnter2D(Collision2D enemy){
-    if(enemy != null){
-            Destroy (this.gameObject);
-            Destroy (enemy.gameObject);
-        }
-    }
-
     
 }

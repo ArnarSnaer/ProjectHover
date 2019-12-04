@@ -5,10 +5,11 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public HealthBar healthBar;
+    public static HealthSystem playerHealth;
     // Start is called before the first frame update
     void Start()
     {
-        HealthSystem playerHealth = new HealthSystem(100);
+        playerHealth = new HealthSystem(100);
         healthBar.Setup(playerHealth);
         playerHealth.Damage(10);
     }
@@ -17,5 +18,10 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public static void damagePlayers(int damage){
+        Debug.Log("Made it");
+        playerHealth.Damage(damage);
     }
 }

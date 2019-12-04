@@ -12,7 +12,7 @@ public class HealthBar : MonoBehaviour
         health.OnHealthChanged += HealthSystem_OnHealthChanged;
     }
     private void HealthSystem_OnHealthChanged(object sender, System.EventArgs e){
-        transform.Find("Bar").localScale = new Vector3(health.GetHealthPercent(), 1);
+        transform.Find("Bar").localScale = new Vector3(health.GetHealthPercent(), 1, 1);
     }
     void Start()
     {
