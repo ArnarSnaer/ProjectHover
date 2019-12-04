@@ -23,7 +23,7 @@ public class cannonController : MonoBehaviour
     void Update()
     {
         string playerIndex = gameObject.GetComponentInParent<TankMovement>().playerIndex;
-        isFiring = Input.GetButtonDown(playerIndex + " R1");
+        isFiring = Input.GetButtonDown("P" + playerIndex + " R1");
 
         if (isFiring)
         {
