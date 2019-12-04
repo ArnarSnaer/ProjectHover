@@ -7,6 +7,7 @@ public class TankMovement : MonoBehaviour
 
     public float moveSpeed;
     public Rigidbody2D rb;
+    public string playerIndex;
     private Vector2 moveInput;
     private Vector2 moveVelocity;
     private float angle;
@@ -21,12 +22,12 @@ public class TankMovement : MonoBehaviour
     void Update()
     {
         // Moving object with left analog stick
-        moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        moveInput = new Vector2(Input.GetAxisRaw(playerIndex + " Horizontal"), Input.GetAxisRaw(playerIndex + " Vertical"));
         moveVelocity = moveInput * moveSpeed;
 
         // Rotating object with right analog stick
-        float horizontal = Input.GetAxisRaw("RHorizontal");
-        float vertical = Input.GetAxisRaw("RVertical");
+        float horizontal = Input.GetAxisRaw(playerIndex + " RHorizontal");
+        float vertical = Input.GetAxisRaw(playerIndex + " RVertical");
         Vector2 RmoveInput = new Vector2(horizontal, vertical);
 
         if (horizontal != 0 && vertical != 0 && RmoveInput.magnitude > deadzone)

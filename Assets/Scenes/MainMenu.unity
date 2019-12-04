@@ -309,7 +309,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 595345860}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75c11adce5900614790153c5188fc5b6, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a6803a1c87e77b48ac770ee100072a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &595345863
@@ -324,10 +324,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: PS4 X
-  m_CancelButton: PS4 Circle
+  m_HorizontalAxis: P1 Horizontal
+  m_VerticalAxis: P1 Vertical
+  m_SubmitButton: P1 PS4 X
+  m_CancelButton: P1 PS4 Circle
   m_InputActionsPerSecond: 10
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 1
@@ -428,7 +428,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 595345862}
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -557,7 +557,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 595345862}
         m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
@@ -1012,7 +1012,7 @@ GameObject:
   - component: {fileID: 1688788164}
   - component: {fileID: 1688788163}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: MainMenu Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

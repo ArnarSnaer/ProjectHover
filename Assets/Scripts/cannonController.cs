@@ -11,7 +11,6 @@ public class cannonController : MonoBehaviour
     public float bulletSpeed;
     public float cooldown;
     public float shotCounter;
-
     public Transform firePoint;
 
     // Start is called before the first frame update
@@ -23,7 +22,8 @@ public class cannonController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        isFiring = Input.GetButtonDown("R1");
+        string playerIndex = gameObject.GetComponentInParent<TankMovement>().playerIndex;
+        isFiring = Input.GetButtonDown(playerIndex + " R1");
 
         if (isFiring)
         {
@@ -38,10 +38,6 @@ public class cannonController : MonoBehaviour
             {
                 shotCounter = 0;
             }
-
-            /*
-            ATH Bullets do not despawn
-             */
 
         }
     }
