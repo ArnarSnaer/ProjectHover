@@ -1,5 +1,54 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4237478355043538109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4592734901587378172}
+  - component: {fileID: 740759782231501777}
+  m_Layer: 0
+  m_Name: WallSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4592734901587378172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4237478355043538109}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.05, y: 3.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7996054237615301999}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &740759782231501777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4237478355043538109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae8d67ecaa28aec43bbf51c11ee0a0da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFiring: 0
+  bullet: {fileID: 8339096053138204986, guid: 58a6a6893da52a7418318b57d0eeb85e, type: 3}
+  bulletSpeed: 10
+  cooldown: -5
+  shotCounter: 10
+  firePoint: {fileID: 4592734901587378172}
 --- !u!1 &8494307702143412316
 GameObject:
   m_ObjectHideFlags: 0
@@ -13,8 +62,9 @@ GameObject:
   - component: {fileID: 3017359733812716217}
   - component: {fileID: 8102282368559807234}
   - component: {fileID: 4100505605892291856}
+  - component: {fileID: 5904000034621175843}
   m_Layer: 0
-  m_Name: Tank2
+  m_Name: Guardian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,6 +82,7 @@ Transform:
   m_LocalScale: {x: 0.748258, y: 0.748258, z: 1.496516}
   m_Children:
   - {fileID: 4684219500989732956}
+  - {fileID: 4592734901587378172}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -146,6 +197,25 @@ MonoBehaviour:
   moveSpeed: 10
   rb: {fileID: 3017359733812716217}
   playerIndex: 2
+--- !u!114 &5904000034621175843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8494307702143412316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9617170d88bc44498df16d6cd67fced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushCooldown: 10
+  placeWallCooldown: 15
+  domeCooldown: 60
+  guardianShield: {fileID: 2369409600252927269, guid: acccb3aac22c1bf4ba6390173949ecb0,
+    type: 3}
+  pushWall: {fileID: 2863399284198583363, guid: b88f2958781500d47b18b74376507054,
+    type: 3}
 --- !u!1 &9118642604148341530
 GameObject:
   m_ObjectHideFlags: 0
