@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8583cbf832fbc1445831542d5d4ec122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar: {fileID: 0}
+  healthBar: {fileID: 98180869}
 --- !u!4 &31151374
 Transform:
   m_ObjectHideFlags: 0
@@ -164,6 +164,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &98180869 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2997102702698050298, guid: 8d83243a97922b7498b021606254e130,
+    type: 3}
+  m_PrefabInstance: {fileID: 2997102702610361855}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ad786765c111543af5fc73b225aaeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &438256286
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,6 +348,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   player: {fileID: 1992340591}
+--- !u!114 &1216429538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216429529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af2d0dbb1a78ba45823c1ae5d10e852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage_amount: 50
 --- !u!1001 &1267342643
 PrefabInstance:
   m_ObjectHideFlags: 0
