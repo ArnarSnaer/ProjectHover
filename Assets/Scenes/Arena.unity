@@ -598,12 +598,12 @@ PrefabInstance:
     - target: {fileID: 2500892558904937433, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 63.1
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 2500892558904937433, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -29.6
+      value: -30.6
       objectReference: {fileID: 0}
     - target: {fileID: 2500892558904937433, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
         type: 3}
@@ -966,7 +966,7 @@ MonoBehaviour:
   SpawnPoints:
   - {fileID: 1220912864}
   - {fileID: 1470582592}
-  TimeBetweenEnemies: 1
+  TimeBetweenEnemies: 0.1
   target: {fileID: 0}
 --- !u!4 &1722262814 stripped
 Transform:
