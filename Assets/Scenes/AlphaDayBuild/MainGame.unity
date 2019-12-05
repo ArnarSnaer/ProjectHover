@@ -127,6 +127,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5742171221628711242, guid: 9ba1d56817f82c343867a0854b82fef3,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2184,8 +2189,6 @@ MonoBehaviour:
   Waves:
   - EnemiesPerWave: 3
     Enemy: {fileID: 844992893}
-  - EnemiesPerWave: 30
-    Enemy: {fileID: 844992893}
   SpawnPoints:
   - {fileID: 657548245}
   - {fileID: 359292401}
@@ -2491,6 +2494,11 @@ PrefabInstance:
         type: 3}
       propertyPath: playerIndex
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742171221628711242, guid: 9ba1d56817f82c343867a0854b82fef3,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}

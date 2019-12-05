@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/AlphaDayBuild/MainMenu.unity
     guid: b4e522c79f385cc498bd5a592993cfbc
-  - enabled: 0
-    path: Assets/Scenes/Arena.unity
-    guid: 9d1f30e5c575d454692c6e18a819e3e3
   - enabled: 1
     path: Assets/Scenes/AlphaDayBuild/MainGame.unity
     guid: b5deb8160fc15354eb202f5d5df09db5
+  - enabled: 1
+    path: Assets/Scenes/AlphaDayBuild/GameOver.unity
+    guid: 3bfe9e6e7a3d8214580149889a06b75e
+  - enabled: 1
+    path: Assets/Scenes/AlphaDayBuild/Win.unity
+    guid: e7ee5b597bf8fd34c89ecc6a68d507e2
   m_configObjects: {}
