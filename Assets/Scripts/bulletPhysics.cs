@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class bulletPhysics : MonoBehaviour
 {
-    private SpawnManager _spawnManager;
 
     private int bullet_damage = 10;
     // Start is called before the first frame update
     void Start()
     {
-      //  _spawnManager = GameObject.FindGameObjectWithTag("SpawnManager").GetComponent<SpawnManager>();
+      
     }
 
     // Update is called once per frame
@@ -25,7 +24,6 @@ public class bulletPhysics : MonoBehaviour
                 Destroy (this.gameObject);
                 enemyHealth damage = enemy.gameObject.GetComponent<enemyHealth>();
                 damage.health.Damage(bullet_damage);
-                //Death();
             }
             else if(enemy.gameObject.name != "Bullet" &&
                 enemy.gameObject.name != "Bullet(Clone)"){    
@@ -33,9 +31,4 @@ public class bulletPhysics : MonoBehaviour
                 }
             }
         }
-
-    private void Death()
-    {
-        _spawnManager.EnemyDefeated();
-    }
 }
