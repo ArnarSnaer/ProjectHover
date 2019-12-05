@@ -127,6 +127,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4231935497881476645, guid: 9ba1d56817f82c343867a0854b82fef3,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.499
+      objectReference: {fileID: 0}
     - target: {fileID: 5742171221628711242, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
       propertyPath: bulletSpeed
@@ -2085,7 +2090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Waves:
-  - EnemiesPerWave: 4
+  - EnemiesPerWave: 5
     rusher: {fileID: 5163287766260426593, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
       type: 3}
     turtle: {fileID: 5781291548277652798, guid: 48220079210f4014e86969d6d7a30059,
@@ -2100,7 +2105,7 @@ MonoBehaviour:
       type: 3}
     turtle: {fileID: 5781291548277652798, guid: 48220079210f4014e86969d6d7a30059,
       type: 3}
-  - EnemiesPerWave: 50
+  - EnemiesPerWave: 40
     rusher: {fileID: 5163287766260426593, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
       type: 3}
     turtle: {fileID: 5781291548277652798, guid: 48220079210f4014e86969d6d7a30059,
@@ -2411,6 +2416,11 @@ PrefabInstance:
         type: 3}
       propertyPath: playerIndex
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4231935497881476645, guid: 9ba1d56817f82c343867a0854b82fef3,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.466
       objectReference: {fileID: 0}
     - target: {fileID: 5742171221628711242, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
