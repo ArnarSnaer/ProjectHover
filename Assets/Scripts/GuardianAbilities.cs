@@ -6,12 +6,13 @@ public class GuardianAbilities : MonoBehaviour
 {
     private string playerIndex;
     public float pushCooldown;
-    public float placeWallCooldown;
+    public float wallCooldown;
     public float domeCooldown;
     public float shieldTime;
     public GameObject guardianShield;
     public GameObject pushWall;
     private Transform point;
+    private Animation anim;
 
     private float pushCountdown;
     private float wallCountdown;
@@ -21,9 +22,10 @@ public class GuardianAbilities : MonoBehaviour
     void Start()
     {
         playerIndex = gameObject.GetComponentInParent<TankMovement>().playerIndex;
-        pushCountdown = 0;
-        wallCountdown = 0;
-        domeCountdown = 0;
+        anim = gameObject.GetComponent<Animation>();
+        pushCountdown = 0.0f;
+        wallCountdown = 0.0f;
+        domeCountdown = 0.0f;
     }
 
     // Update is called once per frame
@@ -31,40 +33,40 @@ public class GuardianAbilities : MonoBehaviour
     {
         if (pushCountdown > 0)
         {
-            pushCountdown -= 1;
+            Debug.Log(pushCooldown);
+            pushCountdown -= Time.deltaTime;
             if (pushCountdown < 0) pushCountdown = 0;
         } 
         if (wallCountdown < 0)
         {
-            wallCountdown -= 1;
+            Debug.Log(wallCooldown);
+            wallCountdown -= Time.deltaTime;
             if (wallCountdown < 0) wallCountdown = 0;
         } 
         if (domeCountdown < 0)
         {
-            domeCountdown -= 1;
+            domeCountdown -= Time.deltaTime;
             if (domeCountdown < 0) domeCountdown = 0;
         } 
     }
 
     void FixedUpdate()
     {
-        if (Input.GetButtonDown("P" + playerIndex + " PS4 Square"))
+        if (Input.GetButtonDown("P" + playerIndex + " L1") && pushCountdown == 0.0f)
         {
-            Debug.Log("Square!");
             Push();
             pushCountdown = pushCooldown;
         }
 
-        else if (Input.GetButtonDown("P" + playerIndex + " PS4 Triangle"))
+        if (Input.GetButtonDown("P" + playerIndex + " PS4 Triangle") && wallCountdown == 0.0f)
         {
-            Debug.Log("Triangle!");
             PlaceWall();
-            wallCountdown = placeWallCooldown;
+            wallCountdown = wallCooldown;
         }
 
-        else if (Input.GetButtonDown("P" + playerIndex + " PS4 Circle"))
+        if (Input.GetButtonDown("P" + playerIndex + " PS4 Circle") && domeCountdown == 0.0f)
         {
-            Debug.Log("Circle!");
+            // Not implimented
             Dome();
             domeCountdown = domeCooldown;
         }
@@ -74,22 +76,19 @@ public class GuardianAbilities : MonoBehaviour
     void Push()
     {
         point = this.transform.Find("BulletSpawn");
-        Debug.Log(point);
         GameObject push = Instantiate(pushWall, point.position, point.rotation) as GameObject;
-        push.transform.Translate(push.transform.up * 100 * Time.deltaTime);
-        Destroy(push, 2);
+        Destroy(push, 0.28f);
     }
 
     void PlaceWall()
     {
         point = this.transform.Find("WallSpawn");
-        Debug.Log(point);
         GameObject shield = Instantiate(guardianShield, point.position, point.rotation) as GameObject;
         Destroy(shield, shieldTime);
     }
 
     void Dome()
     {
-
+        // Spawns a dome around the player which will block enemies
     }
 }

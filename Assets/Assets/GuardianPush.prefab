@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2863399284198583420}
   - component: {fileID: 2863399284198583421}
   - component: {fileID: 2863399284198583362}
+  - component: {fileID: 1378661443}
   m_Layer: 0
   m_Name: GuardianPush
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2863399284198583363}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.03, y: 2.74, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -165,3 +166,22 @@ PolygonCollider2D:
       - {x: -0.97999996, y: -0.16}
       - {x: -0.78999996, y: -0.08}
       - {x: -0.61, y: -0.02}
+--- !u!95 &1378661443
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2863399284198583363}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7bba09794fc3f624e8db48f067f4c1c9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
