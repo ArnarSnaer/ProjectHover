@@ -27,6 +27,10 @@ public class GameManager : MonoBehaviour
         playerHealth.Damage(damage);
     }
 
+    public static void healPlayers(int heal_amount){
+        playerHealth.Heal(heal_amount);
+    }
+
     private void HealthSystem_Ded(object sender, System.EventArgs e){
         Debug.Log("Game over!");
         GameOver();

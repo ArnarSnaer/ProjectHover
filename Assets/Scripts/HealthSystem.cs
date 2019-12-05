@@ -30,4 +30,12 @@ public class HealthSystem
         }
         if(OnHealthChanged != null) OnHealthChanged(this, EventArgs.Empty);
     }
+
+    public void Heal(int heal_amount){
+        health += heal_amount;
+        if(health > healthMax){
+            health = healthMax;
+        }
+        if(OnHealthChanged != null) OnHealthChanged(this, EventArgs.Empty);
+    }
 }
