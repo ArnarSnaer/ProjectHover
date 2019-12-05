@@ -6,11 +6,12 @@ using System;
 public class HealthSystem
 {
     public event EventHandler OnHealthChanged; 
+    public event EventHandler Ded;
     private int health;
     private int healthMax;
 
-    public HealthSystem(int health){
-        this.health = health;
+    public HealthSystem(int max_health){
+        this.health = max_health;
         this.healthMax = health;
     }
 
@@ -23,7 +24,10 @@ public class HealthSystem
     }
     public void Damage(int damage_amount){
         health -= damage_amount;
-        if(health < 0) health = 0;
+        if(health <= 0){
+            health = 0;
+            Ded(this, EventArgs.Empty);
+        }
         if(OnHealthChanged != null) OnHealthChanged(this, EventArgs.Empty);
     }
 }

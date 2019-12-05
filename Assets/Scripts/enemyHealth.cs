@@ -4,22 +4,30 @@ using UnityEngine;
 
 public class enemyHealth : MonoBehaviour
 {
-    public static HealthSystem playerHealth;
+    private SpawnManager _spawnManager;
+    public AudioSource enemyKill;
+    public int max_health;
     // Start is called before the first frame update
-    
+    public HealthSystem health;
     void Start()
-    {
-        playerHealth = new HealthSystem(100);
+    {   
+        _spawnManager = GameObject.FindGameObjectWithTag("SpawnManager").GetComponent<SpawnManager>();
+        health = new HealthSystem(max_health);
+        health.Ded += HealthSystem_Ded;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public static void damagePlayers(int damage){
-        playerHealth.Damage(damage);
+    private void HealthSystem_Ded(object sender, System.EventArgs e){
+        Destroy(this.gameObject);
+        Death();
     }
-
+    private void Death(){
+        _spawnManager.EnemyDefeated();
+        enemyKill.Play();
+    }
 }

@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 2500892558904937439}
   - component: {fileID: 2500892558904937438}
   - component: {fileID: -2776835333115704258}
+  - component: {fileID: 6356371547807367497}
   m_Layer: 0
   m_Name: Base Enemy
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -272,6 +273,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage_amount: 34
+--- !u!114 &6356371547807367497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2500892558904937428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc54fd79e8eaae84a9fb8f17e581c616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max_health: 10
 --- !u!1 &2500892559946643641
 GameObject:
   m_ObjectHideFlags: 0

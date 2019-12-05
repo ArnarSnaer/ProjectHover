@@ -14,8 +14,8 @@ public class SpawnManager : MonoBehaviour
     public Wave[] Waves; // class to hold information per wave
     public Transform[] SpawnPoints;
     public float TimeBetweenEnemies = 2f;
-    public GameObject target;
-
+    public AudioSource spawnEnemy;
+    public AudioSource WaveDone;
     private int _totalEnemiesInCurrentWave;
     private int _enemiesInWaveLeft;
     private int _spawnedEnemies;
@@ -68,6 +68,7 @@ public class SpawnManager : MonoBehaviour
             Transform direction1 = player1.transform;
             Transform direction2 = player2.transform;
             GameObject clone = Instantiate(enemy, SpawnPoints[spawnPointIndex].position, SpawnPoints[spawnPointIndex].rotation);
+            spawnEnemy.Play();
             Pathfinding.AIDestinationSetter player_target = clone.GetComponent<Pathfinding.AIDestinationSetter>();
             if(target_switch == 1){
                 player_target.target = direction1; 
@@ -91,6 +92,7 @@ public class SpawnManager : MonoBehaviour
         // We start the next wave once we have spawned and defeated them all
         if (_enemiesInWaveLeft == 0 && _spawnedEnemies == _totalEnemiesInCurrentWave)
         {
+            WaveDone.Play();
             StartNextWave();
         }
     }
