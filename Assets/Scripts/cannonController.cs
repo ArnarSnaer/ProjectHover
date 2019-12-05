@@ -46,6 +46,7 @@ public class cannonController : MonoBehaviour
         {
             shotCounter = cooldown;
             bulletControler newBullet = Instantiate(bullet, firePoint.position, firePoint.rotation) as bulletControler;
+            shoot.Play();
             newBullet.speed = bulletSpeed;
         }
     }
