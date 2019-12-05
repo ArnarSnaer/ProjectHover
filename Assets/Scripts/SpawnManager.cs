@@ -33,8 +33,7 @@ public class SpawnManager : MonoBehaviour
 	{
 	    _currentWave = -1; // avoid off by 1
 	    _totalWaves = Waves.Length - 1; // adjust, because we're using 0 index
-
-	    StartNextWave();
+        StartNextWave();
 	}
 
     void StartNextWave()
@@ -59,6 +58,7 @@ public class SpawnManager : MonoBehaviour
     IEnumerator SpawnEnemies()
     {
         GameObject enemy;
+        yield return new WaitForSeconds(3);
         while (_spawnedEnemies < _totalEnemiesInCurrentWave)
         {
             _spawnedEnemies++;
@@ -107,6 +107,7 @@ public class SpawnManager : MonoBehaviour
         if (_enemiesInWaveLeft == 0 && _spawnedEnemies == _totalEnemiesInCurrentWave)
         {
             WaveDone.Play();
+            GameManager.healPlayers(25);
             StartNextWave();
         }
     }
