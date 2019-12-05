@@ -1,0 +1,3553 @@
+fileFormatVersion: 2
+guid: 1e4244215a1c8f540979cbc51e08e445
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -299257776598073362
+    second: L2 button
+  - first:
+      213: 6136652370564506481
+    second: L1 Button
+  - first:
+      213: 4535688074148533256
+    second: button prompts_0
+  - first:
+      213: -5160370067622712134
+    second: button prompts_1
+  - first:
+      213: -3137872179378430029
+    second: button prompts_2
+  - first:
+      213: 1556718389521674068
+    second: button prompts_3
+  - first:
+      213: 6278810547035158089
+    second: button prompts_4
+  - first:
+      213: -6958816292341987944
+    second: button prompts_5
+  - first:
+      213: 5825191069527086253
+    second: button prompts_6
+  - first:
+      213: 2841658823074632818
+    second: button prompts_7
+  - first:
+      213: 7263659151176086762
+    second: button prompts_8
+  - first:
+      213: 491108268161660439
+    second: button prompts_9
+  - first:
+      213: 7995695401437403840
+    second: button prompts_10
+  - first:
+      213: -7354914030967586430
+    second: button prompts_11
+  - first:
+      213: -2675083736924467579
+    second: button prompts_12
+  - first:
+      213: -8435713650102938983
+    second: button prompts_13
+  - first:
+      213: -2228895970443894082
+    second: button prompts_14
+  - first:
+      213: -1275922446269958361
+    second: button prompts_15
+  - first:
+      213: 798609732417301168
+    second: button prompts_16
+  - first:
+      213: -2265006088663485507
+    second: button prompts_17
+  - first:
+      213: 6324403740755156113
+    second: button prompts_18
+  - first:
+      213: -5275118558991170182
+    second: button prompts_19
+  - first:
+      213: 4131697562902893004
+    second: button prompts_20
+  - first:
+      213: -8635394015341317648
+    second: button prompts_21
+  - first:
+      213: 6001489252198410931
+    second: button prompts_22
+  - first:
+      213: -2409521200274825280
+    second: button prompts_23
+  - first:
+      213: 1428508858413335790
+    second: button prompts_24
+  - first:
+      213: 3834137991096546627
+    second: button prompts_25
+  - first:
+      213: -3447883451461673020
+    second: button prompts_26
+  - first:
+      213: 3120405996483245404
+    second: button prompts_27
+  - first:
+      213: 1685709971212976505
+    second: button prompts_28
+  - first:
+      213: 4756558853290957908
+    second: button prompts_29
+  - first:
+      213: -7622532449755073080
+    second: button prompts_30
+  - first:
+      213: 2471016770406237553
+    second: button prompts_31
+  - first:
+      213: -1469744558778488579
+    second: button prompts_32
+  - first:
+      213: -3968130679128937754
+    second: button prompts_33
+  - first:
+      213: -2190310444332614407
+    second: button prompts_34
+  - first:
+      213: -5867407109632882186
+    second: button prompts_35
+  - first:
+      213: 2941584096027066203
+    second: button prompts_36
+  - first:
+      213: 7622170341143264607
+    second: button prompts_37
+  - first:
+      213: 4469133919337119922
+    second: button prompts_38
+  - first:
+      213: -8448994765072393891
+    second: button prompts_39
+  - first:
+      213: -5540921344054761328
+    second: button prompts_40
+  - first:
+      213: -2557243390842750420
+    second: button prompts_41
+  - first:
+      213: -4222392983465690836
+    second: button prompts_42
+  - first:
+      213: -4006118759284545830
+    second: button prompts_43
+  - first:
+      213: 4772305907951985005
+    second: button prompts_44
+  - first:
+      213: 2893286635825340186
+    second: button prompts_45
+  - first:
+      213: -1698161565719358535
+    second: button prompts_46
+  - first:
+      213: -1617660329590842771
+    second: button prompts_47
+  - first:
+      213: -6573344714517884581
+    second: button prompts_48
+  - first:
+      213: -6184344723893849379
+    second: button prompts_49
+  - first:
+      213: 6396020190336766328
+    second: button prompts_50
+  - first:
+      213: -357202250703032015
+    second: button prompts_51
+  - first:
+      213: 3327349418243922907
+    second: button prompts_52
+  - first:
+      213: 8507369685930798305
+    second: button prompts_53
+  - first:
+      213: -4476618802449886170
+    second: button prompts_54
+  - first:
+      213: -1367648012311433687
+    second: button prompts_55
+  - first:
+      213: -7709402985225113914
+    second: button prompts_56
+  - first:
+      213: -4696511001059461000
+    second: button prompts_57
+  - first:
+      213: -182173890491772197
+    second: button prompts_58
+  - first:
+      213: 8940415615761200298
+    second: button prompts_59
+  - first:
+      213: -7637235513536218959
+    second: button prompts_60
+  - first:
+      213: 3668429894656550249
+    second: button prompts_61
+  - first:
+      213: 6614053340485471297
+    second: button prompts_62
+  - first:
+      213: -8845440078810577598
+    second: button prompts_63
+  - first:
+      213: -4214768394106173968
+    second: button prompts_64
+  - first:
+      213: -8891615838002443771
+    second: button prompts_65
+  - first:
+      213: 4114644367908550147
+    second: button prompts_66
+  - first:
+      213: 2864368402061209519
+    second: button prompts_67
+  - first:
+      213: 395583479222398486
+    second: button prompts_68
+  - first:
+      213: -1341493239352726111
+    second: button prompts_69
+  - first:
+      213: -7968928468787743013
+    second: button prompts_70
+  - first:
+      213: -6054481719531330198
+    second: button prompts_71
+  - first:
+      213: 1178986058474894713
+    second: button prompts_72
+  - first:
+      213: 5113306639419511121
+    second: button prompts_73
+  - first:
+      213: 5843452385584435543
+    second: button prompts_74
+  - first:
+      213: -8149476994431217339
+    second: button prompts_75
+  - first:
+      213: 3832268420906365820
+    second: button prompts_76
+  - first:
+      213: 2100189175709532179
+    second: button prompts_77
+  - first:
+      213: 66275551931626591
+    second: button prompts_78
+  - first:
+      213: 192392874295798256
+    second: button prompts_79
+  - first:
+      213: 9206243729145945050
+    second: button prompts_80
+  - first:
+      213: -7475805541928480797
+    second: button prompts_81
+  - first:
+      213: 5688679691075870941
+    second: button prompts_82
+  - first:
+      213: -4770186916536839029
+    second: button prompts_83
+  - first:
+      213: 8465216362110017506
+    second: button prompts_84
+  - first:
+      213: -4328144840283915745
+    second: button prompts_85
+  - first:
+      213: 2418908081815026929
+    second: button prompts_86
+  - first:
+      213: -7291879442631035509
+    second: button prompts_87
+  - first:
+      213: -3205557418176292755
+    second: button prompts_88
+  - first:
+      213: -1785366886406246866
+    second: button prompts_89
+  - first:
+      213: -4519635673046816786
+    second: button prompts_90
+  - first:
+      213: -3807076551725158527
+    second: button prompts_91
+  - first:
+      213: -5996106739681167916
+    second: button prompts_92
+  - first:
+      213: -8075352654139227234
+    second: button prompts_93
+  - first:
+      213: 619011438855161476
+    second: button prompts_94
+  - first:
+      213: 8556641118167146259
+    second: button prompts_95
+  - first:
+      213: 1897122246312906111
+    second: button prompts_96
+  - first:
+      213: -8627908851003533927
+    second: button prompts_97
+  - first:
+      213: 8008842740024633440
+    second: button prompts_98
+  - first:
+      213: 3074534127264381773
+    second: button prompts_99
+  - first:
+      213: -4787351464431487974
+    second: button prompts_100
+  - first:
+      213: -2878512058461455312
+    second: button prompts_101
+  - first:
+      213: -1249235671424413849
+    second: button prompts_102
+  - first:
+      213: -3162296722224908026
+    second: button prompts_103
+  - first:
+      213: 3572673905297012725
+    second: button prompts_104
+  - first:
+      213: -1150026882434661971
+    second: button prompts_105
+  - first:
+      213: 6329299714184382835
+    second: button prompts_106
+  - first:
+      213: 3977833202747602389
+    second: button prompts_107
+  - first:
+      213: 7607030969046508866
+    second: button prompts_108
+  - first:
+      213: 1791192899021800232
+    second: button prompts_109
+  - first:
+      213: -1752493840140553327
+    second: button prompts_110
+  - first:
+      213: -2127457295121335262
+    second: button prompts_111
+  - first:
+      213: 7516251188083796145
+    second: button prompts_112
+  - first:
+      213: 3581004348049963995
+    second: button prompts_113
+  - first:
+      213: 7677382528791975886
+    second: button prompts_114
+  - first:
+      213: 6495408071793545726
+    second: button prompts_115
+  - first:
+      213: 1678803492824233913
+    second: button prompts_116
+  - first:
+      213: -3721265045177704035
+    second: button prompts_117
+  - first:
+      213: -40125931778677738
+    second: button prompts_118
+  - first:
+      213: -5807440674990592093
+    second: button prompts_119
+  - first:
+      213: 96802180579380113
+    second: button prompts_120
+  - first:
+      213: 1374556442738022481
+    second: button prompts_121
+  - first:
+      213: -5463647571929393306
+    second: button prompts_122
+  - first:
+      213: 583955151921929603
+    second: button prompts_123
+  - first:
+      213: 7045647748106863861
+    second: button prompts_124
+  - first:
+      213: -644103436811445212
+    second: button prompts_125
+  - first:
+      213: -145660267297946753
+    second: button prompts_126
+  - first:
+      213: 6658408999313053498
+    second: button prompts_127
+  - first:
+      213: -6928534921672935481
+    second: button prompts_128
+  - first:
+      213: 5644663961688194403
+    second: button prompts_129
+  - first:
+      213: 7364360432343450058
+    second: button prompts_130
+  - first:
+      213: 5054491616515915184
+    second: button prompts_131
+  - first:
+      213: -2754244893002878958
+    second: button prompts_132
+  - first:
+      213: -7052836274746694022
+    second: button prompts_133
+  - first:
+      213: 1775971813024765888
+    second: button prompts_134
+  - first:
+      213: 3394152506430622550
+    second: button prompts_135
+  - first:
+      213: 1348153967841746614
+    second: button prompts_136
+  - first:
+      213: -6287906761657278101
+    second: button prompts_137
+  - first:
+      213: -6022699726945909352
+    second: button prompts_138
+  - first:
+      213: 2622959039377447801
+    second: button prompts_139
+  - first:
+      213: 5628640414670733446
+    second: button prompts_140
+  - first:
+      213: 3401834250891066905
+    second: button prompts_141
+  - first:
+      213: 6659654955537085152
+    second: button prompts_142
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 176, y: 316, z: 313, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: button prompts_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 316
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b41c3c962a04f48a5fce0e9f7c8c0c
+      internalID: 4535688074148533256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 316
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb1c4cc29a9106489b2e7fa1ec834d1
+      internalID: -5160370067622712134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 317
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798e9ee0f52f80942b4a383908e4d19a
+      internalID: -3137872179378430029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 317
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcbfdb7e80b4ed49b20ac207895425f
+      internalID: 1556718389521674068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_4
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 312
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc41c44ba8a5444fbb2845113970aca
+      internalID: 6278810547035158089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 302
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d334d43f36e8bd740b71c8aad3037305
+      internalID: -6958816292341987944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 302
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23c37b98ef131b4da0859049ca2ceda
+      internalID: 5825191069527086253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_7
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 304
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb1dea7396c75247aeeef025ff55b17
+      internalID: 2841658823074632818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_8
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 301
+        width: 20
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5697281, y: 0.52298844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac0c93dd31f291499b19f098fac9ad6
+      internalID: 7263659151176086762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_9
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 301
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3672814e50fd324eb46232ae2fd2f5b
+      internalID: 491108268161660439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_10
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 302
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfee59f0e1499c54eb5f76b354d0da81
+      internalID: 7995695401437403840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 302
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed0def89023b5542a6f15534ee4bac6
+      internalID: -7354914030967586430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_12
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 300
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cf98b4ebf00f64eb7f7825b4ef41ca
+      internalID: -2675083736924467579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 259
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2240a25d0bf16a0488a0a33e37b9d150
+      internalID: -8435713650102938983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_14
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 283
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3feda44b10583f349a472542ee01c0f3
+      internalID: -2228895970443894082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 283
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed9cff66602d1c4593c48c0b3babc13
+      internalID: -1275922446269958361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_16
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 283
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14cf8caee26d93438122355d22ca102
+      internalID: 798609732417301168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_17
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 259
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e49a32a36ff5c844909acb08f6ae536
+      internalID: -2265006088663485507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_18
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 283
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a20c08db51a46c47bebb4a27547f6f3
+      internalID: 6324403740755156113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_19
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 283
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c6ab5d34a58ae45a1e0ba856cd5783
+      internalID: -5275118558991170182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_20
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 283
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48430f66aece2b14a9e945965ccbd3c1
+      internalID: 4131697562902893004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_21
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 288
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b6d43de4cef3844b1b510f56c35354
+      internalID: -8635394015341317648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_22
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60598206bcbd1b440b2fb44b8a831d9a
+      internalID: 6001489252198410931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_23
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 288
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac9a014468caa54d9f0d7c42ea68581
+      internalID: -2409521200274825280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_24
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 265
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c252309fa772c654a8cd1badf3877d16
+      internalID: 1428508858413335790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_25
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 267
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430a1b978778f124085b8b661f49bc29
+      internalID: 3834137991096546627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_26
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 267
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bd497da4643ee448a6ff9fd1298d35
+      internalID: -3447883451461673020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_27
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 267
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5deeb3f1e587cf448a3bd0e81a88f4cc
+      internalID: 3120405996483245404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_28
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 267
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564a790438d5e1b4f9e851e5d0a4fcc4
+      internalID: 1685709971212976505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_29
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 267
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374c35556f40ec8469b3d121c3abd48b
+      internalID: 4756558853290957908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_30
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 266
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6ef665395bfea458c8c1ce60c9c28b
+      internalID: -7622532449755073080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_31
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65262ea65bc4cbf4689205ed6e773f75
+      internalID: 2471016770406237553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_32
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0781d50c0705c44b316da953adec12
+      internalID: -1469744558778488579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_33
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e929b39f594256f48a1e70e4139dda07
+      internalID: -3968130679128937754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_34
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 251
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ee7d717b8066b4687dee6b4509049e
+      internalID: -2190310444332614407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_35
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 251
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a798e80ff369443b9ef6257eeaee81
+      internalID: -5867407109632882186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_36
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 254
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b93b87455b154419316f7c827063b0
+      internalID: 2941584096027066203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_37
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 256
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7ba66632f49b9439d971d24f9e9529
+      internalID: 7622170341143264607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_38
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 203
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d73ab265c4eb404284603bd218b4253
+      internalID: 4469133919337119922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_39
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 217
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1edb8e39760d7647b11df82035c0580
+      internalID: -8448994765072393891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_40
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 217
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d63b5b0de12b5409cb723b8dedf26b
+      internalID: -5540921344054761328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_41
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 211
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28aac1cf78b021c4c8fe773abfa088d7
+      internalID: -2557243390842750420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_42
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 211
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6b74b7c08cf3e4fa03e155a0ea4fb1
+      internalID: -4222392983465690836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_43
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 211
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63e77830c064d448bef5caa815e694c
+      internalID: -4006118759284545830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_44
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 238
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2701f4cb2d89bc4439f0169c221a6a08
+      internalID: 4772305907951985005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 219
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da92f43b183fa94d85798de1e95ec79
+      internalID: 2893286635825340186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_46
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 224
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfa0eaff14d9884f993eba5ab129ab4
+      internalID: -1698161565719358535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_47
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 224
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd7fa109a05eee4bb9956c983fddb3e
+      internalID: -1617660329590842771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_48
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 224
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd688b3a0f4be74c8026ea9fc8d3054
+      internalID: -6573344714517884581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_49
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 195
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddfa9ec4b3fa164ea86fdcde67da6d6
+      internalID: -6184344723893849379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_50
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 195
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1972b2f04ba9a3345a72f478fd10532e
+      internalID: 6396020190336766328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_51
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 183
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e991562bfb9dc6d49acdfebd9a73c2c1
+      internalID: -357202250703032015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_52
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 183
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b8af840bc62a8438c1795e80cee5ab
+      internalID: 3327349418243922907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_53
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 192
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bf2820e85640f49aa0523b5cfba4e5
+      internalID: 8507369685930798305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_54
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 192
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e884ee4a7afb84d99fe7945d91287f
+      internalID: -4476618802449886170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_55
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 192
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff60d5b46d30e34e96b1b3be9f4c9fb
+      internalID: -1367648012311433687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_56
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 179
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6287b45f52b1746428a5742c1e9e59ab
+      internalID: -7709402985225113914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_57
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 179
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37c8ba44c7497643addea6f78f40de1
+      internalID: -4696511001059461000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_58
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 179
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a633120c3c0b4ac4aaadcc25a44d4310
+      internalID: -182173890491772197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_59
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 155
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044f9e730ccece047a47ba329b29dbb4
+      internalID: 8940415615761200298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_60
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 171
+        width: 96
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1dd8eaf4eecb254e9173f0e954b29df
+      internalID: -7637235513536218959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_61
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 131
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122770c4f51f63f48884a137bc83e2ed
+      internalID: 3668429894656550249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_62
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 157
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fa863497b152141a6f05b9aa7fb17b
+      internalID: 6614053340485471297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_63
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 157
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663a3963410fca340bb3deeefeda61c4
+      internalID: -8845440078810577598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_64
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 157
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1570a528f1d8c4fafdc3bf594d70d9
+      internalID: -4214768394106173968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_65
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 157
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42e358347daea341b0e5506b88647a9
+      internalID: -8891615838002443771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_66
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 157
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982a3c056ca781148a3413da518e161a
+      internalID: 4114644367908550147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_67
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 157
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b94cb7a959ef1f47b75d7b7cedd2a16
+      internalID: 2864368402061209519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_68
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 162
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6cfbd7051e17543ba8885cadb47fb6
+      internalID: 395583479222398486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_69
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 162
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2a9b3e7f5ee99449dbf1b52c593414
+      internalID: -1341493239352726111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_70
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 162
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8b6dd502c2877449bdd286737a06e4
+      internalID: -7968928468787743013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_71
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 162
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a53a66eb8e1494eb26b2d383bdd95f
+      internalID: -6054481719531330198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_72
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 162
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435246f05ed6f5242b997679230b1ec9
+      internalID: 1178986058474894713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_73
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 162
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8160daff06e1f304089afd2c9f1264fc
+      internalID: 5113306639419511121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_74
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 162
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffb435a044e3a44aaba524903dbb533
+      internalID: 5843452385584435543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_75
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 162
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48befbca1491eb49936caba5a7e4935
+      internalID: -8149476994431217339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_76
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 152
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73a5e21f32b9f74998cbc952ad3b8a9
+      internalID: 3832268420906365820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_77
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 152
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37c6a7368be8864895c2183e7afb5f1
+      internalID: 2100189175709532179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_78
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 152
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc0d4cb74272dd41a260e17199f84c0
+      internalID: 66275551931626591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_79
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 152
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d88dd2192670f418d48201a74af7df
+      internalID: 192392874295798256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_80
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 152
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db168832f7a5d014785da56baeda47fb
+      internalID: 9206243729145945050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_81
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 152
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be4a6d20455831479c6b2f00991af9c
+      internalID: -7475805541928480797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_82
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 152
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f55049386c62f7489bc3448f590f3b1
+      internalID: 5688679691075870941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_83
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 152
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f610e488311dab84b8e19c29ee394c21
+      internalID: -4770186916536839029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_84
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 107
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d96529c34bc1364f835d1bef7c08724
+      internalID: 8465216362110017506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_85
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406715119b9329a4ea1ef061e63da83b
+      internalID: -4328144840283915745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_86
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3005e967bb7104182fd144723dcd47
+      internalID: 2418908081815026929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_87
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fc2a97628f6064aa99ef89e49e75b2
+      internalID: -7291879442631035509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_88
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 132
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cb4100ac0add845b85efbcfc081976
+      internalID: -3205557418176292755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_89
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84af097ce9491d14ea81ba4fe05abbda
+      internalID: -1785366886406246866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_90
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fe1a0b5920d6846917fd5e5ce74f73
+      internalID: -4519635673046816786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_91
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f57557cab87cbd4f8a4e87d856d4619
+      internalID: -3807076551725158527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_92
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2590c6abdfc3449a831b72da2c5728
+      internalID: -5996106739681167916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_93
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 132
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2001b073a8b76e4ba36d75ac9eebfed
+      internalID: -8075352654139227234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_94
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 132
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda09592cf25a894e8f705e2de378a1b
+      internalID: 619011438855161476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_95
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 132
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124b2feefc321b8469a8a9a0c8294b38
+      internalID: 8556641118167146259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_96
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 132
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181ceaebb8c76214b958927cd6ce0caa
+      internalID: 1897122246312906111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_97
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 125
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec95b006d3f6dc84cbc533d6105ee549
+      internalID: -8627908851003533927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_98
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 125
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f86ea6d21e0b645a8960297121f161
+      internalID: 8008842740024633440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_99
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 103
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc202be27e1fe148a5742925c9792ab
+      internalID: 3074534127264381773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_100
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 107
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a542e829c8c0da944bcdd98e3f246277
+      internalID: -4787351464431487974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_101
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 119
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7890a0f74f3174d468cb7da20d2e90a1
+      internalID: -2878512058461455312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_102
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 119
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a41f05c8c50be844bda1b6f221d4405
+      internalID: -1249235671424413849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_103
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 119
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b111f48405ac404478af6ab39c599057
+      internalID: -3162296722224908026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_104
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 119
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3256de2a2a6753f4e9c548112a286c03
+      internalID: 3572673905297012725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_105
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 119
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fb071a6e853344db3c347eb97f5954
+      internalID: -1150026882434661971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_106
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 119
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bd5c66fca665845bb3c0cd561fb3a9
+      internalID: 6329299714184382835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_107
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 119
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395036fdc8c6ea245973910cf82cb6a7
+      internalID: 3977833202747602389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_108
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 119
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4168c52845ecfc46812940301ae2243
+      internalID: 7607030969046508866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_109
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 119
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8add93eeaa50af542a16820aa13a9018
+      internalID: 1791192899021800232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_110
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 119
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540e9ff0a2beaa14ba314f069ea2f93f
+      internalID: -1752493840140553327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_111
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 119
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e5f8ba1bc6d694ca497e33c42226c8
+      internalID: -2127457295121335262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_112
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 119
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802a562cfe92ee848bc5f499134734a1
+      internalID: 7516251188083796145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_113
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 113
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ac22cdcd8f2b444a82ede1c56ebed8
+      internalID: 3581004348049963995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_114
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 113
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32442274a59be344495ce65d3a250e19
+      internalID: 7677382528791975886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_115
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 113
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d8fc248f3376b4885074cf9f8bd8fd
+      internalID: 6495408071793545726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_116
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 113
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a17b18a9cd243145b2481f114861369
+      internalID: 1678803492824233913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_117
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 107
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15eef1387f757dd4a8082cc37512a3c5
+      internalID: -3721265045177704035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_118
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 99
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eda5ce2b90af4540afd1e9cb434408d
+      internalID: -40125931778677738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_119
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 99
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be110b19c2b3e545b43f411db713054
+      internalID: -5807440674990592093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_120
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 94
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3adb111e055f24f9d7c748457c8e53
+      internalID: 96802180579380113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_121
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 96
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51adff4fd216fc45bb0b4defb75a98d
+      internalID: 1374556442738022481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_122
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 94
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd34c502f4f3de5458ab799274ecfe72
+      internalID: -5463647571929393306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_123
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 100
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a02ea39ae234149ac879d1e518f30a
+      internalID: 583955151921929603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_124
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 84
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6b6e2352538bd43806c8a73f72cd8d
+      internalID: 7045647748106863861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_125
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 41
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8c4797069fd1642b596c4087bb7de5
+      internalID: -644103436811445212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_126
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 78
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6d82fc9bcd33541bfebd6b28385626
+      internalID: -145660267297946753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_127
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 78
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578415563004fc1408865e6ce27b0838
+      internalID: 6658408999313053498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_128
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 78
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3244a7ef04bd06e4ab516e8b31447453
+      internalID: -6928534921672935481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_129
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 78
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c6da5f57fbf5d47b2c5cb4a79139d1
+      internalID: 5644663961688194403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_130
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 78
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc57505af2d1b242a751c68c5f5c981
+      internalID: 7364360432343450058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_131
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 79
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c734c9c1086bae4c95dd610c4dce87a
+      internalID: 5054491616515915184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_132
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 62
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2ff1fa35b0d5643ac922e943e3f74d
+      internalID: -2754244893002878958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_133
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133692f1668c0ee429a371893cd50245
+      internalID: -7052836274746694022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_134
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 64
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91440efa22936634dbf6b2c6710c47ca
+      internalID: 1775971813024765888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_135
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 62
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a56d9fc98adc24d943508343de617b
+      internalID: 3394152506430622550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_136
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 60
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37dbc0635c54ba4f848209c38fef475
+      internalID: 1348153967841746614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_137
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 60
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0e38fc2a2d9ff43b8bceacc44b7307
+      internalID: -6287906761657278101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_138
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 60
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26384023b57b03429fc4d9dedc463e5
+      internalID: -6022699726945909352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_139
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 48
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5369f58606c8c9941940b82e67e585f7
+      internalID: 2622959039377447801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_140
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 39
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31497bdedef25c84ca444425ea4171a6
+      internalID: 5628640414670733446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_141
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 39
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aab5f4498f8bd4c9c36bf5c6ec5b4e
+      internalID: 3401834250891066905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button prompts_142
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 44
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4020c178bf0c3be40a86eda0a28d4bc5
+      internalID: 6659654955537085152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
