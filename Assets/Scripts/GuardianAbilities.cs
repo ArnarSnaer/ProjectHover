@@ -11,6 +11,8 @@ public class GuardianAbilities : MonoBehaviour
     public float shieldTime;
     public GameObject guardianShield;
     public GameObject pushWall;
+    public AudioSource pushClip;
+    public AudioSource wallClip;
     private Transform point;
     private Animation anim;
 
@@ -80,6 +82,7 @@ public class GuardianAbilities : MonoBehaviour
     {
         point = this.transform.Find("BulletSpawn");
         GameObject push = Instantiate(pushWall, point.position, point.rotation) as GameObject;
+        pushClip.Play();
         Destroy(push, 0.35f);
     }
 
@@ -87,6 +90,7 @@ public class GuardianAbilities : MonoBehaviour
     {
         point = this.transform.Find("WallSpawn");
         GameObject shield = Instantiate(guardianShield, point.position, point.rotation) as GameObject;
+        wallClip.Play();
         Destroy(shield, shieldTime);
     }
 

@@ -2115,7 +2115,7 @@ MonoBehaviour:
   - {fileID: 359292401}
   - {fileID: 2057200792}
   - {fileID: 419892482}
-  TimeBetweenEnemies: 1
+  TimeBetweenEnemies: 4
   spawnEnemy: {fileID: 1422793613}
   WaveDone: {fileID: 1422793612}
   turtle_switch: 0
