@@ -11,9 +11,8 @@ public class enemyDamage : MonoBehaviour
         if(enemy != null){
             if(enemy.gameObject.GetComponent<TankMovement>() != null){
                 GameManager.damagePlayers(damage_amount);
-                Destroy (this.gameObject);
-                _spawnManager.EnemyDefeated();
-                Debug.Log("Enemy defeated!");
+                enemyHealth damage = this.gameObject.GetComponent<enemyHealth>();
+                damage.health.Damage(1000);
             }
         }
     }
