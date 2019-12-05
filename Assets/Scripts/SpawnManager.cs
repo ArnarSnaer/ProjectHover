@@ -78,7 +78,6 @@ public class SpawnManager : MonoBehaviour
                 player_target.target = direction2; 
                 target_switch = 1; 
             }
-            Debug.Log(clone.GetComponent<Pathfinding.IAstarAI>().destination);
             yield return new WaitForSeconds(TimeBetweenEnemies);
         }
         yield return null;
