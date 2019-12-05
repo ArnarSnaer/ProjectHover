@@ -12,8 +12,6 @@ public class CooldownLogic : MonoBehaviour
     public Image skill2;
     private  float skill1Cooldown;
     private float skill2Cooldown;
-    //private float skill1Countdown;
-    //private float skill2Countdown;
     private Image skill1Image;
     private Image skill2Image;
 
@@ -26,8 +24,6 @@ public class CooldownLogic : MonoBehaviour
         playerIndex = player.GetComponent<TankMovement>().playerIndex;
         skill1Cooldown = player.GetComponent<GuardianAbilities>().pushCooldown;
         skill2Cooldown = player.GetComponent<GuardianAbilities>().wallCooldown;
-        //skill1Countdown = player.GetComponent<GuardianAbilities>().pushCountdown;
-        //skill2Countdown = player.GetComponent<GuardianAbilities>().wallCountdown;
         skill1Image = skill1.GetComponentsInChildren<Image>()[1];
         skill2Image = skill2.GetComponentsInChildren<Image>()[1];
     }
