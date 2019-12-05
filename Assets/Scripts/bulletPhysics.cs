@@ -7,19 +7,11 @@ public class bulletPhysics : MonoBehaviour
     private SpawnManager _spawnManager;
     public AudioSource enemyKill;
 
-    //Add to this array new names of enemy objects or if names of enemies are altered
-    private string[] enemies = {"Base Enemy", "Base Enemy(Clone)"};
-    private bool isEnemy(GameObject thing){
-        string name = thing.name;
-        foreach(string enemy in enemies){
-            if(enemy == name) return true;
-        }
-        return false;
-    }
+    private int bullet_damage = 10;
     // Start is called before the first frame update
     void Start()
     {
-        _spawnManager = GameObject.FindGameObjectWithTag("SpawnManager").GetComponent<SpawnManager>();
+      //  _spawnManager = GameObject.FindGameObjectWithTag("SpawnManager").GetComponent<SpawnManager>();
     }
 
     // Update is called once per frame
@@ -29,17 +21,17 @@ public class bulletPhysics : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D enemy){
-    if(enemy != null)
-    {
-        if(isEnemy(enemy.gameObject)){
-            Destroy (this.gameObject);
-            Destroy (enemy.gameObject);
-            enemyKill.Play();
-            Death();
-        }
-        else if(enemy.gameObject.name != "Bullet" ||
-            enemy.gameObject.name == "Bullet(Clone)"){    
-                Destroy(this.gameObject);
+    if(enemy != null){
+            if(enemy.gameObject.tag == "enemy"){
+                Destroy (this.gameObject);
+                enemyHealth damage = enemy.gameObject.GetComponent<enemyHealth>();
+                damage.health.Damage(bullet_damage);
+                //Death();
+            }
+            else if(enemy.gameObject.name != "Bullet" &&
+                enemy.gameObject.name != "Bullet(Clone)"){    
+                    Destroy(this.gameObject);
+                }
             }
     }
         }
