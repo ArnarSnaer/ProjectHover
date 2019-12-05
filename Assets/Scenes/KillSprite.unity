@@ -162,7 +162,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &98180869 stripped
 MonoBehaviour:
@@ -304,7 +304,7 @@ PrefabInstance:
     - target: {fileID: 6940909260427833849, guid: fa318b765b0955c4294a5dba11256fa3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6940909260427833849, guid: fa318b765b0955c4294a5dba11256fa3,
         type: 3}
@@ -346,6 +346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc54fd79e8eaae84a9fb8f17e581c616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  max_health: 10
 --- !u!114 &1216429533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,7 +384,7 @@ PrefabInstance:
     - target: {fileID: 4100505605892291856, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
       propertyPath: playerIndex
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
@@ -423,7 +424,7 @@ PrefabInstance:
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
@@ -465,6 +466,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2620836643925970966, guid: 51bd1b4e7b54a7449b174b14135603fc,
+        type: 3}
+      propertyPath: playerIndex
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5771528483775142351, guid: 51bd1b4e7b54a7449b174b14135603fc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -582,7 +588,7 @@ PrefabInstance:
     - target: {fileID: 2500892558904937433, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2500892558904937433, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
         type: 3}
@@ -630,7 +636,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6356371547807367497, guid: d37bc185cc7ad9041b7fe5b9e7df22fb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d37bc185cc7ad9041b7fe5b9e7df22fb, type: 3}
 --- !u!1001 &1797270896
 PrefabInstance:
@@ -639,10 +646,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2776835333115704258, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
+        type: 3}
+      propertyPath: damage_amount
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 2500892558904937428, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
         type: 3}
       propertyPath: m_Name
-      value: Turtles
+      value: Turtle
       objectReference: {fileID: 0}
     - target: {fileID: 2500892558904937429, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
         type: 3}
@@ -707,7 +719,7 @@ PrefabInstance:
     - target: {fileID: 2500892558904937434, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.29
+      value: 5.12
       objectReference: {fileID: 0}
     - target: {fileID: 2500892558904937435, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
         type: 3}
@@ -735,7 +747,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6356371547807367497, guid: d37bc185cc7ad9041b7fe5b9e7df22fb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d37bc185cc7ad9041b7fe5b9e7df22fb, type: 3}
 --- !u!1 &1797270897 stripped
 GameObject:
@@ -752,10 +765,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1797270897}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0af2d0dbb1a78ba45823c1ae5d10e852, type: 3}
+  m_Script: {fileID: 11500000, guid: fc54fd79e8eaae84a9fb8f17e581c616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage_amount: 50
+  max_health: 50
 --- !u!114 &1797270899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -832,7 +845,7 @@ PrefabInstance:
     - target: {fileID: 2997102702698050299, guid: 8d83243a97922b7498b021606254e130,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2997102702698050299, guid: 8d83243a97922b7498b021606254e130,
         type: 3}
