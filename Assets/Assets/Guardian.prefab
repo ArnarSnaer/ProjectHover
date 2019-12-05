@@ -166,7 +166,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.006654024, y: -0.017560244}
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   rb: {fileID: 3017359733812716217}
-  playerIndex: 2
+  playerIndex: 1
 --- !u!114 &5904000034621175843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,9 +209,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9617170d88bc44498df16d6cd67fced, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pushCooldown: 10
-  placeWallCooldown: 15
+  pushCooldown: 1
+  wallCooldown: 5
   domeCooldown: 60
+  shieldTime: 5
   guardianShield: {fileID: 2369409600252927269, guid: acccb3aac22c1bf4ba6390173949ecb0,
     type: 3}
   pushWall: {fileID: 2863399284198583363, guid: b88f2958781500d47b18b74376507054,
@@ -262,6 +263,6 @@ MonoBehaviour:
   isFiring: 0
   bullet: {fileID: 8339096053138204986, guid: 58a6a6893da52a7418318b57d0eeb85e, type: 3}
   bulletSpeed: 10
-  cooldown: -5
-  shotCounter: 10
+  cooldown: 0.3
+  shotCounter: 0
   firePoint: {fileID: 4684219500989732956}

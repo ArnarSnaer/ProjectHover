@@ -16,29 +16,36 @@ public class cannonController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        shotCounter = 0.0f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        string playerIndex = gameObject.GetComponentInParent<TankMovement>().playerIndex;
-        isFiring = Input.GetButtonDown("P" + playerIndex + " R1");
-
-        if (isFiring)
+        if (shotCounter > 0)
         {
             shotCounter -= Time.deltaTime;
-            if (shotCounter <= 0)
-            {
-                shotCounter = cooldown;
-                bulletControler newBullet = Instantiate(bullet, firePoint.position, firePoint.rotation) as bulletControler;
-                newBullet.speed = bulletSpeed;
-            }
-            else
+            if (shotCounter < 0)
             {
                 shotCounter = 0;
             }
+            
+        }
+        
+    }
 
+    void FixedUpdate()
+    {
+        string playerIndex = gameObject.GetComponentInParent<TankMovement>().playerIndex;
+        isFiring = Input.GetButton("P" + playerIndex + " R1");
+
+
+        Debug.Log(shotCounter);
+        if (isFiring && shotCounter == 0.0f)
+        {
+            shotCounter = cooldown;
+            bulletControler newBullet = Instantiate(bullet, firePoint.position, firePoint.rotation) as bulletControler;
+            newBullet.speed = bulletSpeed;
         }
     }
 }
