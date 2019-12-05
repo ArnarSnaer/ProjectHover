@@ -2092,8 +2092,6 @@ MonoBehaviour:
   Waves:
   - EnemiesPerWave: 3
     Enemy: {fileID: 844992893}
-  - EnemiesPerWave: 30
-    Enemy: {fileID: 844992893}
   SpawnPoints:
   - {fileID: 657548245}
   - {fileID: 359292401}

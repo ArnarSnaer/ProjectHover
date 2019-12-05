@@ -41,6 +41,7 @@ public class SpawnManager : MonoBehaviour
         // win
         if (_currentWave > _totalWaves)
         {
+            Debug.Log("You win!");
             SceneManager.LoadScene("Win");
         }
 
