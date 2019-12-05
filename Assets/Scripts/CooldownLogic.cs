@@ -48,16 +48,15 @@ public class CooldownLogic : MonoBehaviour
             float timer = skill1Image.fillAmount * 10;
             GetComponentsInChildren<Text>()[0].text = timer.ToString("F0");
 
-            if (skill1Image.fillAmount >= 1)
+            if (skill1Image.fillAmount <= 0)
             {
-                skill1Cooldown = 0;
                 skill1Image.fillAmount = 0;
                 skill1OnCooldown = false;
             }
         }
         
         // Wall
-        if (Input.GetButtonDown("P" + playerIndex + " L2") && skill2OnCooldown)
+        if (Input.GetButtonDown("P" + playerIndex + " L2") && skill2OnCooldown == false)
         {
             skill2Image.fillAmount = 1;
             skill2OnCooldown = true;
@@ -69,9 +68,8 @@ public class CooldownLogic : MonoBehaviour
             float timer = skill2Image.fillAmount * 10;
             GetComponentsInChildren<Text>()[1].text = timer.ToString("F0");
 
-            if (skill2Image.fillAmount >= 1)
+            if (skill2Image.fillAmount <= 0)
             {
-                skill2Cooldown = 0;
                 skill2Image.fillAmount = 0;
                 skill2OnCooldown = false;
             }
