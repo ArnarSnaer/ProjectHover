@@ -118,12 +118,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turtle Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5163287766260426594, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
+        type: 3}
+      propertyPath: max_health
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5163287766260426595, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
+        type: 3}
+      propertyPath: damage_amount
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 5163287766260426648, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 2453e2c8537e5354d8675e386eda04e5,
         type: 3}
+    - target: {fileID: 5163287766260426653, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5163287766260426655, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
