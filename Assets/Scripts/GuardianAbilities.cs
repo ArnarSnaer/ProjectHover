@@ -45,7 +45,6 @@ public class GuardianAbilities : MonoBehaviour
         {
             wallCountdown -= Time.deltaTime;
             if (wallCountdown < 0) wallCountdown = 0;
-            Debug.Log(wallCountdown);
         } 
         if (domeCountdown > 0)
         {
