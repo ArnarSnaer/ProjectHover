@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class Wave
@@ -40,7 +41,7 @@ public class SpawnManager : MonoBehaviour
         // win
         if (_currentWave > _totalWaves)
         {
-            return;
+            SceneManager.LoadScene("Win");
         }
 
         _totalEnemiesInCurrentWave = Waves[_currentWave].EnemiesPerWave;
