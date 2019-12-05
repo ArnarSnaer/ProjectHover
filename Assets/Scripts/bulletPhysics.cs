@@ -30,5 +30,6 @@ public class bulletPhysics : MonoBehaviour
                     Destroy(this.gameObject);
                 }
             }
+    }
         }
 }

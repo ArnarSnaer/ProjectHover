@@ -12,6 +12,7 @@ public class cannonController : MonoBehaviour
     public float cooldown;
     public float shotCounter;
     public Transform firePoint;
+    public AudioSource shoot;
 
     // Start is called before the first frame update
     void Start()
