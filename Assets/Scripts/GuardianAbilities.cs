@@ -80,7 +80,7 @@ public class GuardianAbilities : MonoBehaviour
     {
         point = this.transform.Find("BulletSpawn");
         GameObject push = Instantiate(pushWall, point.position, point.rotation) as GameObject;
-        Destroy(push, 0.28f);
+        Destroy(push, 0.35f);
     }
 
     void PlaceWall()
