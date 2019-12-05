@@ -210,8 +210,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9617170d88bc44498df16d6cd67fced, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pushCooldown: 1
-  wallCooldown: 5
+  pushCooldown: 4
+  wallCooldown: 10
   domeCooldown: 60
   shieldTime: 5
   guardianShield: {fileID: 2369409600252927269, guid: acccb3aac22c1bf4ba6390173949ecb0,

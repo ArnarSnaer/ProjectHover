@@ -23,11 +23,12 @@ public class enemyHealth : MonoBehaviour
     }
 
     private void HealthSystem_Ded(object sender, System.EventArgs e){
-        Destroy(this.gameObject);
         Death();
+        Destroy(this.gameObject);
     }
     private void Death(){
         _spawnManager.EnemyDefeated();
+        Debug.Log("Enemy defeated!");
         enemyKill.Play();
     }
 }
