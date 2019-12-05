@@ -2090,7 +2090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Waves:
-  - EnemiesPerWave: 3
+  - EnemiesPerWave: 10
     Enemy: {fileID: 844992893}
   SpawnPoints:
   - {fileID: 657548245}
@@ -2603,7 +2603,7 @@ PrefabInstance:
     - target: {fileID: -2776835333115704258, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
         type: 3}
       propertyPath: damage_amount
-      value: 10
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 2500892558904937428, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
         type: 3}
