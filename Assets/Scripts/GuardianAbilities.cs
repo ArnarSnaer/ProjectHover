@@ -14,9 +14,14 @@ public class GuardianAbilities : MonoBehaviour
     private Transform point;
     private Animation anim;
 
-    private float pushCountdown;
-    private float wallCountdown;
-    private float domeCountdown;
+    [HideInInspector]
+    public float pushCountdown;
+    
+    [HideInInspector]
+    public float wallCountdown;
+    
+    [HideInInspector]
+    public float domeCountdown;
 
     // Start is called before the first frame update
     void Start()
@@ -33,15 +38,14 @@ public class GuardianAbilities : MonoBehaviour
     {
         if (pushCountdown > 0)
         {
-            Debug.Log(pushCooldown);
             pushCountdown -= Time.deltaTime;
             if (pushCountdown < 0) pushCountdown = 0;
         } 
         if (wallCountdown < 0)
         {
-            Debug.Log(wallCooldown);
             wallCountdown -= Time.deltaTime;
             if (wallCountdown < 0) wallCountdown = 0;
+            Debug.Log(wallCountdown);
         } 
         if (domeCountdown < 0)
         {
@@ -58,7 +62,7 @@ public class GuardianAbilities : MonoBehaviour
             pushCountdown = pushCooldown;
         }
 
-        if (Input.GetButtonDown("P" + playerIndex + " PS4 Triangle") && wallCountdown == 0.0f)
+        if (Input.GetButtonDown("P" + playerIndex + " L2") && wallCountdown == 0.0f)
         {
             PlaceWall();
             wallCountdown = wallCooldown;

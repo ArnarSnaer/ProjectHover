@@ -39,8 +39,6 @@ public class cannonController : MonoBehaviour
         string playerIndex = gameObject.GetComponentInParent<TankMovement>().playerIndex;
         isFiring = Input.GetButton("P" + playerIndex + " R1");
 
-
-        Debug.Log(shotCounter);
         if (isFiring && shotCounter == 0.0f)
         {
             shotCounter = cooldown;
