@@ -23,6 +23,8 @@ public class SpawnManager : MonoBehaviour
     private int _currentWave;
     private int _totalWaves;
 
+    int target_switch = 1;
+
 	void Start ()
 	{
 	    _currentWave = -1; // avoid off by 1
@@ -60,7 +62,22 @@ public class SpawnManager : MonoBehaviour
             int spawnPointIndex = Random.Range(0, SpawnPoints.Length);
 
             // Create an instance of the enemy prefab at the randomly selected spawn point's position and rotation.
-            Instantiate(enemy, SpawnPoints[spawnPointIndex].position, SpawnPoints[spawnPointIndex].rotation);
+            TankMovement[] players = FindObjectsOfType<TankMovement>();
+            TankMovement player1 = players[0];
+            TankMovement player2 = players[1];
+            Transform direction1 = player1.transform;
+            Transform direction2 = player2.transform;
+            GameObject clone = Instantiate(enemy, SpawnPoints[spawnPointIndex].position, SpawnPoints[spawnPointIndex].rotation);
+            Pathfinding.AIDestinationSetter player_target = clone.GetComponent<Pathfinding.AIDestinationSetter>();
+            if(target_switch == 1){
+                player_target.target = direction1; 
+                target_switch = 2; 
+            }
+            else{
+                player_target.target = direction2; 
+                target_switch = 1; 
+            }
+            Debug.Log(clone.GetComponent<Pathfinding.IAstarAI>().destination);
             yield return new WaitForSeconds(TimeBetweenEnemies);
         }
         yield return null;
