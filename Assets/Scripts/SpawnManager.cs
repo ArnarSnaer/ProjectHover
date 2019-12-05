@@ -6,7 +6,8 @@ using UnityEngine;
 public class Wave
 {
     public int EnemiesPerWave;
-    public GameObject Enemy;
+    public GameObject rusher;
+    public GameObject turtle;
 }
 
 public class SpawnManager : MonoBehaviour
@@ -22,6 +23,8 @@ public class SpawnManager : MonoBehaviour
 
     private int _currentWave;
     private int _totalWaves;
+
+    public int turtle_switch = 0;
 
     int target_switch = 1;
 
@@ -53,11 +56,21 @@ public class SpawnManager : MonoBehaviour
     // Coroutine to spawn all of our enemies
     IEnumerator SpawnEnemies()
     {
-        GameObject enemy = Waves[_currentWave].Enemy;
+        GameObject enemy;
         while (_spawnedEnemies < _totalEnemiesInCurrentWave)
         {
             _spawnedEnemies++;
             _enemiesInWaveLeft++;
+
+            turtle_switch++;
+            Debug.Log("turtle Switch: " + turtle_switch);
+            if(turtle_switch < 5){
+                enemy = Waves[_currentWave].rusher;
+            }
+            else{
+                enemy = Waves[_currentWave].turtle;
+                turtle_switch = 0;
+            }
 
             int spawnPointIndex = Random.Range(0, SpawnPoints.Length);
 
