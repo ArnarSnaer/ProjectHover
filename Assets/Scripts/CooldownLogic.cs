@@ -12,8 +12,8 @@ public class CooldownLogic : MonoBehaviour
     public Image skill2;
     private  float skill1Cooldown;
     private float skill2Cooldown;
-    private float skill1Countdown;
-    private float skill2Countdown;
+    //private float skill1Countdown;
+    //private float skill2Countdown;
     private Image skill1Image;
     private Image skill2Image;
 
@@ -26,8 +26,8 @@ public class CooldownLogic : MonoBehaviour
         playerIndex = player.GetComponent<TankMovement>().playerIndex;
         skill1Cooldown = player.GetComponent<GuardianAbilities>().pushCooldown;
         skill2Cooldown = player.GetComponent<GuardianAbilities>().wallCooldown;
-        skill1Countdown = player.GetComponent<GuardianAbilities>().pushCountdown;
-        skill2Countdown = player.GetComponent<GuardianAbilities>().wallCountdown;
+        //skill1Countdown = player.GetComponent<GuardianAbilities>().pushCountdown;
+        //skill2Countdown = player.GetComponent<GuardianAbilities>().wallCountdown;
         skill1Image = skill1.GetComponentsInChildren<Image>()[1];
         skill2Image = skill2.GetComponentsInChildren<Image>()[1];
     }
@@ -36,7 +36,7 @@ public class CooldownLogic : MonoBehaviour
     void Update()
     {
         // Push
-        if (skill1Countdown > 0.0f)
+        if (Input.GetButtonDown("P" + playerIndex + " L1") && skill1OnCooldown == false)
         {
             skill1Image.fillAmount = 1;
             skill1OnCooldown = true;
@@ -57,7 +57,7 @@ public class CooldownLogic : MonoBehaviour
         }
         
         // Wall
-        if (skill2Countdown > 0.0f)
+        if (Input.GetButtonDown("P" + playerIndex + " L2") && skill2OnCooldown)
         {
             skill2Image.fillAmount = 1;
             skill2OnCooldown = true;
