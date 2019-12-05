@@ -14,8 +14,7 @@ public class SpawnManager : MonoBehaviour
     public Wave[] Waves; // class to hold information per wave
     public Transform[] SpawnPoints;
     public float TimeBetweenEnemies = 2f;
-    public GameObject target;
-
+    public AudioSource WaveDone;
     private int _totalEnemiesInCurrentWave;
     private int _enemiesInWaveLeft;
     private int _spawnedEnemies;
@@ -91,6 +90,7 @@ public class SpawnManager : MonoBehaviour
         // We start the next wave once we have spawned and defeated them all
         if (_enemiesInWaveLeft == 0 && _spawnedEnemies == _totalEnemiesInCurrentWave)
         {
+            WaveDone.Play();
             StartNextWave();
         }
     }

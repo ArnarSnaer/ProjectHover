@@ -5,6 +5,7 @@ using UnityEngine;
 public class bulletPhysics : MonoBehaviour
 {
     private SpawnManager _spawnManager;
+    public AudioSource enemyKill;
 
     //Add to this array new names of enemy objects or if names of enemies are altered
     private string[] enemies = {"Base Enemy", "Base Enemy(Clone)"};
@@ -28,17 +29,19 @@ public class bulletPhysics : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D enemy){
-    if(enemy != null){
-            if(isEnemy(enemy.gameObject)){
-                Destroy (this.gameObject);
-                Destroy (enemy.gameObject);
-                Death();
+    if(enemy != null)
+    {
+        if(isEnemy(enemy.gameObject)){
+            Destroy (this.gameObject);
+            Destroy (enemy.gameObject);
+            enemyKill.Play();
+            Death();
+        }
+        else if(enemy.gameObject.name != "Bullet" ||
+            enemy.gameObject.name == "Bullet(Clone)"){    
+                Destroy(this.gameObject);
             }
-            else if(enemy.gameObject.name != "Bullet" ||
-                enemy.gameObject.name == "Bullet(Clone)"){    
-                    Destroy(this.gameObject);
-                }
-            }
+    }
         }
 
     private void Death()
