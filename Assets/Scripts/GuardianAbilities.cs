@@ -41,7 +41,7 @@ public class GuardianAbilities : MonoBehaviour
             pushCountdown -= Time.deltaTime;
             if (pushCountdown < 0) pushCountdown = 0;
         } 
-        if (wallCountdown < 0)
+        if (wallCountdown > 0)
         {
             wallCountdown -= Time.deltaTime;
             if (wallCountdown < 0) wallCountdown = 0;
