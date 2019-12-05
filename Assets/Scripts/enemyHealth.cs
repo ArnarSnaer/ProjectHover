@@ -5,6 +5,7 @@ using UnityEngine;
 public class enemyHealth : MonoBehaviour
 {
     private SpawnManager _spawnManager;
+    public AudioSource enemyKill;
     public int max_health;
     // Start is called before the first frame update
     public HealthSystem health;
@@ -27,5 +28,6 @@ public class enemyHealth : MonoBehaviour
     }
     private void Death(){
         _spawnManager.EnemyDefeated();
+        enemyKill.Play();
     }
 }
