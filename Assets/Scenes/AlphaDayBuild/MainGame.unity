@@ -140,12 +140,12 @@ PrefabInstance:
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.099
+      value: 0.257
       objectReference: {fileID: 0}
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.47
+      value: -6.998
       objectReference: {fileID: 0}
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
@@ -195,17 +195,17 @@ PrefabInstance:
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.6397606
+      value: 0.45929182
       objectReference: {fileID: 0}
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.6397606
+      value: 0.45929182
       objectReference: {fileID: 0}
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.2795212
+      value: 0.91858363
       objectReference: {fileID: 0}
     - target: {fileID: 8494307702143412316, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
@@ -2100,12 +2100,12 @@ MonoBehaviour:
       type: 3}
     turtle: {fileID: 5781291548277652798, guid: 48220079210f4014e86969d6d7a30059,
       type: 3}
-  - EnemiesPerWave: 20
+  - EnemiesPerWave: 15
     rusher: {fileID: 5163287766260426593, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
       type: 3}
     turtle: {fileID: 5781291548277652798, guid: 48220079210f4014e86969d6d7a30059,
       type: 3}
-  - EnemiesPerWave: 40
+  - EnemiesPerWave: 20
     rusher: {fileID: 5163287766260426593, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
       type: 3}
     turtle: {fileID: 5781291548277652798, guid: 48220079210f4014e86969d6d7a30059,
@@ -2115,7 +2115,7 @@ MonoBehaviour:
   - {fileID: 359292401}
   - {fileID: 2057200792}
   - {fileID: 419892482}
-  TimeBetweenEnemies: 4
+  TimeBetweenEnemies: 3.4
   spawnEnemy: {fileID: 1422793613}
   WaveDone: {fileID: 1422793612}
   turtle_switch: 0
@@ -2430,12 +2430,12 @@ PrefabInstance:
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.97
+      value: 6.48
       objectReference: {fileID: 0}
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.53
+      value: -6.994
       objectReference: {fileID: 0}
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
@@ -2485,17 +2485,17 @@ PrefabInstance:
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.6397606
+      value: 0.45434776
       objectReference: {fileID: 0}
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.6397606
+      value: 0.45434776
       objectReference: {fileID: 0}
     - target: {fileID: 7996054237615301999, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.2795212
+      value: 0.9086955
       objectReference: {fileID: 0}
     - target: {fileID: 8494307702143412316, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}

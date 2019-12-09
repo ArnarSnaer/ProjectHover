@@ -58,7 +58,7 @@ public class SpawnManager : MonoBehaviour
     IEnumerator SpawnEnemies()
     {
         GameObject enemy;
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
         while (_spawnedEnemies < _totalEnemiesInCurrentWave)
         {
             _spawnedEnemies++;
