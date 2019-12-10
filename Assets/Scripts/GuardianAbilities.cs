@@ -109,16 +109,16 @@ public class GuardianAbilities : MonoBehaviour
         //shoot.Play();
         Debug.Log(point);
 
-        bulletControler newBullet1 = Instantiate(bullet, point.position, point.rotation)            as bulletControler;
-        bulletControler newBullet2 = Instantiate(bullet, point.position, point.rotation)            as bulletControler;
-        bulletControler newBullet3 = Instantiate(bullet, point.position, point.rotation)    as bulletControler;
-        bulletControler newBullet4 = Instantiate(bullet, point.position, point.rotation)            as bulletControler;
-        bulletControler newBullet5 = Instantiate(bullet, point.position, point.rotation)            as bulletControler;
+        Quaternion point1 = new Quaternion(point.rotation.x, point.rotation.y, point.rotation.z - 40, 1); 
+        Quaternion point2 = new Quaternion(point.rotation.x, point.rotation.y, point.rotation.z - 20, 1);
+        Quaternion point4 = new Quaternion(point.rotation.x, point.rotation.y, point.rotation.z + 20, 1);
+        Quaternion point5 = new Quaternion(point.rotation.x, point.rotation.y, point.rotation.z + 40, 1);
 
-        newBullet1.transform.Rotate(new Vector3(0f, 0f, 40f));
-        newBullet2.transform.Rotate(new Vector3(0f, 0f, 20f));
-        newBullet4.transform.Rotate(new Vector3(0f, 0f, -20f));
-        newBullet5.transform.Rotate(new Vector3(0f, 0f, -40f));
+        bulletControler newBullet1 = Instantiate(bullet, point.position, point1)            as bulletControler;
+        bulletControler newBullet2 = Instantiate(bullet, point.position, point2)            as bulletControler;
+        bulletControler newBullet3 = Instantiate(bullet, point.position, point.rotation)    as bulletControler;
+        bulletControler newBullet4 = Instantiate(bullet, point.position, point4)            as bulletControler;
+        bulletControler newBullet5 = Instantiate(bullet, point.position, point5)            as bulletControler;
 
         newBullet1.speed = bulletSpeed;
         newBullet2.speed = bulletSpeed;

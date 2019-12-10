@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6476123173902048110}
   - component: {fileID: 7474062156840059166}
-  - component: {fileID: 621929007579751282}
   - component: {fileID: 776029079314108065}
   - component: {fileID: 8339096053138204986}
   - component: {fileID: 2645185940138746075}
   - component: {fileID: -893928686808831683}
+  - component: {fileID: 6760966016585847913}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -85,32 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &621929007579751282
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5376019251218402220}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.018551111, y: -0.037058055}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.76, y: 1.97}
-    newSize: {x: 5.12, y: 5.12}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.3354728, y: 2.4518485}
-  m_EdgeRadius: 0
 --- !u!50 &776029079314108065
 Rigidbody2D:
   serializedVersion: 4
@@ -253,3 +227,38 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!60 &6760966016585847913
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5376019251218402220}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.76, y: 1.97}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.32172963, y: 0.6267187}
+      - {x: 0.20947054, y: 0.8666715}
+      - {x: 0.11947051, y: 0.97278106}
+      - {x: -0.106105775, y: 0.97278094}
+      - {x: -0.23451738, y: 0.8200145}
+      - {x: -0.31, y: 0.615}
+      - {x: -0.35390982, y: 0.45499998}
+      - {x: -0.35999998, y: -0.98499995}
+      - {x: 0.37, y: -0.98499995}
+      - {x: 0.37610593, y: 0.45499998}
