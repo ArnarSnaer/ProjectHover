@@ -9,6 +9,8 @@ public class GuardianAbilities : MonoBehaviour
     public float wallCooldown;
     public float domeCooldown;
     public float shieldTime;
+
+    public bulletControler bullet;
     public GameObject guardianShield;
     public GameObject pushWall;
     public AudioSource pushClip;
@@ -59,7 +61,8 @@ public class GuardianAbilities : MonoBehaviour
     {
         if (Input.GetButtonDown("P" + playerIndex + " L1") && pushCountdown == 0.0f)
         {
-            Push();
+            Shotgun();
+            //Push();
             pushCountdown = pushCooldown;
         }
 
@@ -97,5 +100,30 @@ public class GuardianAbilities : MonoBehaviour
     void Dome()
     {
         // Spawns a dome around the player which will block enemies
+    }
+
+    void Shotgun()
+    {
+        point = this.transform.Find("BulletSpawn");
+        float bulletSpeed = 10f;
+        //shoot.Play();
+        Debug.Log(point);
+
+        bulletControler newBullet1 = Instantiate(bullet, point.position, point.rotation)            as bulletControler;
+        bulletControler newBullet2 = Instantiate(bullet, point.position, point.rotation)            as bulletControler;
+        bulletControler newBullet3 = Instantiate(bullet, point.position, point.rotation)    as bulletControler;
+        bulletControler newBullet4 = Instantiate(bullet, point.position, point.rotation)            as bulletControler;
+        bulletControler newBullet5 = Instantiate(bullet, point.position, point.rotation)            as bulletControler;
+
+        newBullet1.transform.Rotate(new Vector3(0f, 0f, 40f));
+        newBullet2.transform.Rotate(new Vector3(0f, 0f, 20f));
+        newBullet4.transform.Rotate(new Vector3(0f, 0f, -20f));
+        newBullet5.transform.Rotate(new Vector3(0f, 0f, -40f));
+
+        newBullet1.speed = bulletSpeed;
+        newBullet2.speed = bulletSpeed;
+        newBullet3.speed = bulletSpeed;
+        newBullet4.speed = bulletSpeed;
+        newBullet5.speed = bulletSpeed;
     }
 }
