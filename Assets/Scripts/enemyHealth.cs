@@ -9,11 +9,18 @@ public class enemyHealth : MonoBehaviour
     public int max_health;
     // Start is called before the first frame update
     public HealthSystem health;
+    private Material matWhite;
+    private Material matDefault;
+    SpriteRenderer sr;
     void Start()
     {   
         _spawnManager = GameObject.FindGameObjectWithTag("SpawnManager").GetComponent<SpawnManager>();
         health = new HealthSystem(max_health);
         health.Ded += HealthSystem_Ded;
+
+        sr = GetComponent<SpriteRenderer>();
+        matWhite = Resources.Load("WhiteFlash", typeof(Material)) as Material;
+        matDefault = sr.material;
     }
 
     // Update is called once per frame
