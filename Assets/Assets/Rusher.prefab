@@ -274,8 +274,8 @@ GameObject:
   - component: {fileID: 3618507289363102841}
   - component: {fileID: 7485276886419480785}
   m_Layer: 0
-  m_Name: Triangle512
-  m_TagString: Untagged
+  m_Name: Body
+  m_TagString: SpriteRenderer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
