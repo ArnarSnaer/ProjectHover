@@ -36,7 +36,16 @@ public class enemyHealth : MonoBehaviour
     private void Death(){
         _spawnManager.EnemyDefeated();
         Instantiate(explosionRef, this.transform.position, Quaternion.identity);
-        audioSource.PlayOneShot(enemyKill, 1F);
-        Debug.Log("Enemy defeated!");
+    }
+
+    public void flash(){
+        StartCoroutine(Damaged());
+    }
+    IEnumerator Damaged() {
+        Renderer enemy_color = this.GetComponent<Renderer>();
+        Color old_color = enemy_color.material.color;
+        enemy_color.material.color = new Color (0.5f,0.5f,0.5f,1);
+        yield return new WaitForSeconds(0.5f);
+        enemy_color.material.color = old_color;
     }
 }

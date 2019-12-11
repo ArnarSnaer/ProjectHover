@@ -43,4 +43,14 @@ public class TankMovement : MonoBehaviour
         rb.rotation = angle;
         rb.velocity = moveVelocity;
     }
+    public void player_flash(){
+        StartCoroutine(Damaged());
+    }
+    public IEnumerator Damaged() {
+        Renderer enemy_color = this.GetComponent<Renderer>();
+        Color old_color = enemy_color.material.color;
+        enemy_color.material.color = new Color (1,0,0,1);
+        yield return new WaitForSeconds(0.5f);
+        enemy_color.material.color = old_color;
+    }
 }
