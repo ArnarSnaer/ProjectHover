@@ -7,7 +7,6 @@ public class GuardianAbilities : MonoBehaviour
     private string playerIndex;
     public float pushCooldown;
     public float wallCooldown;
-    public float domeCooldown;
     public float shieldTime;
 
     public bulletControler bullet;
@@ -34,7 +33,6 @@ public class GuardianAbilities : MonoBehaviour
         anim = gameObject.GetComponent<Animation>();
         pushCountdown = 0.0f;
         wallCountdown = 0.0f;
-        domeCountdown = 0.0f;
     }
 
     // Update is called once per frame
@@ -72,13 +70,6 @@ public class GuardianAbilities : MonoBehaviour
             wallCountdown = wallCooldown;
         }
 
-        if (Input.GetButtonDown("P" + playerIndex + " PS4 Circle") && domeCountdown == 0.0f)
-        {
-            // Not implimented
-            Dome();
-            domeCountdown = domeCooldown;
-        }
-
     }
 
     void Push()
@@ -97,10 +88,6 @@ public class GuardianAbilities : MonoBehaviour
         Destroy(shield, shieldTime);
     }
 
-    void Dome()
-    {
-        // Spawns a dome around the player which will block enemies
-    }
 
     void Shotgun()
     {
@@ -109,16 +96,11 @@ public class GuardianAbilities : MonoBehaviour
         //shoot.Play();
         Debug.Log(point);
 
-        Quaternion point1 = new Quaternion(point.rotation.x, point.rotation.y, point.rotation.z - 40, 1); 
-        Quaternion point2 = new Quaternion(point.rotation.x, point.rotation.y, point.rotation.z - 20, 1);
-        Quaternion point4 = new Quaternion(point.rotation.x, point.rotation.y, point.rotation.z + 20, 1);
-        Quaternion point5 = new Quaternion(point.rotation.x, point.rotation.y, point.rotation.z + 40, 1);
-
-        bulletControler newBullet1 = Instantiate(bullet, point.position, point1)            as bulletControler;
-        bulletControler newBullet2 = Instantiate(bullet, point.position, point2)            as bulletControler;
+        bulletControler newBullet1 = Instantiate(bullet, point.position, Quaternion.Euler(point.rotation.x, point.rotation.y, point.eulerAngles.z - 40)) as bulletControler;
+        bulletControler newBullet2 = Instantiate(bullet, point.position, Quaternion.Euler(point.rotation.x, point.rotation.y, point.eulerAngles.z - 20)) as bulletControler;
         bulletControler newBullet3 = Instantiate(bullet, point.position, point.rotation)    as bulletControler;
-        bulletControler newBullet4 = Instantiate(bullet, point.position, point4)            as bulletControler;
-        bulletControler newBullet5 = Instantiate(bullet, point.position, point5)            as bulletControler;
+        bulletControler newBullet4 = Instantiate(bullet, point.position, Quaternion.Euler(point.rotation.x, point.rotation.y, point.eulerAngles.z + 20)) as bulletControler;
+        bulletControler newBullet5 = Instantiate(bullet, point.position, Quaternion.Euler(point.rotation.x, point.rotation.y, point.eulerAngles.z + 40)) as bulletControler;
 
         newBullet1.speed = bulletSpeed;
         newBullet2.speed = bulletSpeed;

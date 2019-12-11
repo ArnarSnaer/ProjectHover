@@ -11,7 +11,7 @@ public class TankMovement : MonoBehaviour
     private Vector2 moveInput;
     private Vector2 moveVelocity;
     private float angle;
-    private float deadzone = 0.05f;
+    private float deadzone = 0.035f;
 
     // Start is called before the first frame update
     void Start()

@@ -190,7 +190,7 @@ MonoBehaviour:
   wallCooldown: 10
   domeCooldown: 60
   shieldTime: 5
-  bullet: {fileID: 0}
+  bullet: {fileID: 4163681103282120775, guid: 609f517136d5c3348a55808ec73731c2, type: 3}
   guardianShield: {fileID: 2369409600252927269, guid: acccb3aac22c1bf4ba6390173949ecb0,
     type: 3}
   pushWall: {fileID: 2863399284198583363, guid: b88f2958781500d47b18b74376507054,

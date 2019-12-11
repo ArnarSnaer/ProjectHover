@@ -28,7 +28,7 @@ public class bulletPhysics : MonoBehaviour
             else if(enemy.gameObject.name != "Bullet" &&
                 enemy.gameObject.name != "Bullet(Clone)"){    
                     Destroy(this.gameObject);
-               }
             }
+        }
     }
 }
