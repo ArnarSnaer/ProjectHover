@@ -1180,12 +1180,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1108750272}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &844992893 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5163287766260426593, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
-    type: 3}
-  m_PrefabInstance: {fileID: 5163287765492643356}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &878084802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2087,19 +2081,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Waves:
   - EnemiesPerWave: 3
-    Enemy: {fileID: 844992893}
-    rusher: {fileID: 2500892558904937428, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
+    rusher: {fileID: 5163287766260426593, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
       type: 3}
-    turtle: {fileID: 3830342671418675595, guid: 48220079210f4014e86969d6d7a30059,
+    turtle: {fileID: 5781291548277652798, guid: 48220079210f4014e86969d6d7a30059,
       type: 3}
-    turtle_switch: 0
   - EnemiesPerWave: 30
-    Enemy: {fileID: 844992893}
-    rusher: {fileID: 2500892558904937428, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
+    rusher: {fileID: 5163287766260426593, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
       type: 3}
-    turtle: {fileID: 3830342671418675595, guid: 48220079210f4014e86969d6d7a30059,
+    turtle: {fileID: 5781291548277652798, guid: 48220079210f4014e86969d6d7a30059,
       type: 3}
-    turtle_switch: 0
   SpawnPoints:
   - {fileID: 657548245}
   - {fileID: 359292401}
@@ -2108,6 +2098,7 @@ MonoBehaviour:
   TimeBetweenEnemies: 0.5
   spawnEnemy: {fileID: 1422793613}
   WaveDone: {fileID: 1422793612}
+  turtle_switch: 0
 --- !u!82 &1422793612
 AudioSource:
   m_ObjectHideFlags: 0
