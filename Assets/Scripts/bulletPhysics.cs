@@ -33,14 +33,4 @@ public class bulletPhysics : MonoBehaviour
             }
         }
     }
-    IEnumerator Damaged(GameObject enemy) {
-        Renderer enemy_color = enemy.GetComponent<Renderer>();
-        Debug.Log(enemy_color.material.color);
-        Color old_color = enemy_color.material.color;
-        enemy_color.material.color = new Color (1,0,0,1);
-        yield return null;
-        // yield return new WaitForSeconds(0.5f);
-        Debug.Log("Made it!");
-        enemy_color.material.color = old_color;
-    }
 }

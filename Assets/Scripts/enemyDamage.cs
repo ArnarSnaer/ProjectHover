@@ -10,6 +10,8 @@ public class enemyDamage : MonoBehaviour
     void OnCollisionEnter2D(Collision2D enemy){
         if(enemy != null){
             if(enemy.gameObject.GetComponent<TankMovement>() != null){
+                TankMovement tank = enemy.gameObject.GetComponent<TankMovement>();
+                tank.player_flash();
                 GameManager.damagePlayers(damage_amount);
                 enemyHealth damage = this.gameObject.GetComponent<enemyHealth>();
                 damage.health.Damage(1000);
