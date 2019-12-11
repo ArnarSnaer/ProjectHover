@@ -188,7 +188,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pushCooldown: 4
   wallCooldown: 10
-  domeCooldown: 60
   shieldTime: 5
   bullet: {fileID: 4163681103282120775, guid: 609f517136d5c3348a55808ec73731c2, type: 3}
   guardianShield: {fileID: 2369409600252927269, guid: acccb3aac22c1bf4ba6390173949ecb0,
@@ -531,7 +530,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 80f9efba3d2bd1449a1600e025a2188f, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.302
   m_Pitch: 1
   Loop: 0
