@@ -11,6 +11,7 @@ public class enemyHealth : MonoBehaviour
     public HealthSystem health;
     private Material matWhite;
     private Material matDefault;
+    private UnityEngine.Object explosionRef;
     SpriteRenderer sr;
     void Start()
     {   
@@ -21,6 +22,8 @@ public class enemyHealth : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         matWhite = Resources.Load("WhiteFlash", typeof(Material)) as Material;
         matDefault = sr.material;
+
+        explosionRef = Resources.Load("Explosion");
     }
 
     // Update is called once per frame
@@ -32,6 +35,8 @@ public class enemyHealth : MonoBehaviour
     private void HealthSystem_Ded(object sender, System.EventArgs e){
         Death();
         enemyKill.Play();
+        //GameObject explosion = (GameObject)Instantiate(explosionRef);
+        //explosion.transform.position = new Vector3(transform.position.x, transform.position.y + .3f, transform.position.z);
         Destroy(this.gameObject);
     }
     private void Death(){
