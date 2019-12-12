@@ -13,6 +13,7 @@ public class cannonController : MonoBehaviour
     public float shotCounter;
     public Transform firePoint;
     public AudioSource shoot;
+    public GameObject impactParticle;
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +45,7 @@ public class cannonController : MonoBehaviour
         {
             shotCounter = cooldown;
             bulletControler newBullet = Instantiate(bullet, firePoint.position, firePoint.rotation) as bulletControler;
+            Instantiate(impactParticle, firePoint.position, firePoint.rotation);
             shoot.Play();
             newBullet.speed = bulletSpeed;
         }
