@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SpawnManager
   - enemy
+  - SpriteRenderer
   layers:
   - Default
   - TransparentFX
