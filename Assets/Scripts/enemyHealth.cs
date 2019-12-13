@@ -14,11 +14,25 @@ public class enemyHealth : MonoBehaviour
     private Material matDefault;
     public GameObject explosionRef;
     SpriteRenderer sr;
+    Pathfinding.IAstarAI speed;
+    Renderer enemy_color;
+    Color old_color;
+    float oldSpeed;
     void Start()
     {   
         _spawnManager = GameObject.FindGameObjectWithTag("SpawnManager").GetComponent<SpawnManager>();
         health = new HealthSystem(max_health);
         health.Ded += HealthSystem_Ded;
+        speed = this.GetComponent<Pathfinding.IAstarAI>();
+        oldSpeed = speed.maxSpeed;
+        Renderer [] enemy_colors = this.GetComponentsInChildren<Renderer>();
+        enemy_color = null;
+        foreach(Renderer enemy in enemy_colors){
+            if(enemy.tag == "SpriteRenderer"){
+                enemy_color = enemy;   
+            }
+        }
+        old_color = enemy_color.material.color;
 
         audioSource = GetComponent<AudioSource>();
     }
@@ -42,14 +56,6 @@ public class enemyHealth : MonoBehaviour
         StartCoroutine(Damaged());
     }
     IEnumerator Damaged() {
-        Renderer [] enemy_colors = this.GetComponentsInChildren<Renderer>();
-        Renderer enemy_color = null;
-        foreach(Renderer enemy in enemy_colors){
-            if(enemy.tag == "SpriteRenderer"){
-                enemy_color = enemy;   
-            }
-        }
-        Color old_color = enemy_color.material.color;
         enemy_color.material.color = new Color (0.5f,0.5f,0.5f,1);
         yield return new WaitForSeconds(0.2f);
         enemy_color.material.color = old_color;
@@ -62,13 +68,11 @@ public class enemyHealth : MonoBehaviour
 
     IEnumerator freeze()
     {
-        Renderer enemy_color = this.GetComponentInChildren<Renderer>();
-        float oldSpeed = this.GetComponent<Pathfinding.IAstarAI>().maxSpeed;
-        this.GetComponent<Pathfinding.IAstarAI>().maxSpeed = 0.5f;
-        // Play Ice Sound
-
+        speed.maxSpeed = 0.5f;
+        // Play Ice Soun
         enemy_color.material.color = new Color (0f, 1f, 1f, 1f);
-        yield return new WaitForSeconds(2.0f);
-        this.GetComponent<Pathfinding.IAstarAI>().maxSpeed = oldSpeed;
+        yield return new WaitForSeconds(2f);
+        speed.maxSpeed = oldSpeed;
+        enemy_color.material.color = old_color;
     }
 }

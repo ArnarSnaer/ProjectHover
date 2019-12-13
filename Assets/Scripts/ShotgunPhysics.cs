@@ -17,7 +17,6 @@ public class ShotgunPhysics : MonoBehaviour
 
                 // Play shotgun sound
                 enemyHealth damage = enemy.gameObject.GetComponent<enemyHealth>();
-                damage.flash();
                 damage.slowed();
 
             }

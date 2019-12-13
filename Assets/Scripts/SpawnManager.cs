@@ -67,7 +67,7 @@ public class SpawnManager : MonoBehaviour
             _enemiesInWaveLeft++;
 
             turtle_switch++;
-            if(turtle_switch < 2){
+            if(turtle_switch < 3000){
                 enemy = Waves[_currentWave].rusher;
             }
             else{
