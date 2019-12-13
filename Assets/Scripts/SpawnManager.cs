@@ -9,6 +9,8 @@ public class Wave
     public int EnemiesPerWave;
     public GameObject rusher;
     public GameObject turtle;
+    public GameObject shooter;
+    public GameObject shielder;
 }
 
 public class SpawnManager : MonoBehaviour
@@ -65,11 +67,11 @@ public class SpawnManager : MonoBehaviour
             _enemiesInWaveLeft++;
 
             turtle_switch++;
-            if(turtle_switch < 5){
+            if(turtle_switch < 3000){
                 enemy = Waves[_currentWave].rusher;
             }
             else{
-                enemy = Waves[_currentWave].turtle;
+                enemy = Waves[_currentWave].shielder;
                 turtle_switch = 0;
             }
 
@@ -81,6 +83,9 @@ public class SpawnManager : MonoBehaviour
             TankMovement player2 = players[1];
             Transform direction1 = player1.transform;
             Transform direction2 = player2.transform;
+            Debug.Log(enemy);
+            Debug.Log(SpawnPoints[spawnPointIndex].position);
+            Debug.Log(SpawnPoints[spawnPointIndex].rotation);
             GameObject clone = Instantiate(enemy, SpawnPoints[spawnPointIndex].position, SpawnPoints[spawnPointIndex].rotation);
             spawnEnemy.Play();
             Pathfinding.AIDestinationSetter player_target = clone.GetComponent<Pathfinding.AIDestinationSetter>();
