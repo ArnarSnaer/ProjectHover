@@ -8,30 +8,21 @@ public class ShotgunPhysics : MonoBehaviour
 
     public int bulletDamage;
     public float force;
-    void Start()
-    {
-        
-    }
+    public AudioSource ice;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     void OnCollisionEnter2D(Collision2D enemy){
     if(enemy != null){
             if(enemy.gameObject.tag == "enemy"){
-                //StartCoroutine(Damaged(enemy.gameObject));
                 Destroy (this.gameObject);
+
+                // Play shotgun sound
                 enemyHealth damage = enemy.gameObject.GetComponent<enemyHealth>();
                 damage.flash();
                 damage.health.Damage(bulletDamage);
 
-                enemy.gameObject.GetComponent<Rigidbody2D>().AddForce(-transform.up * force, ForceMode2D.Impulse);
-                Debug.Log("Force added!");
+                StartCoroutine(slowed(enemy));
             }
-
 
             else if(enemy.gameObject.name != "Bullet" &&
                 enemy.gameObject.name != "Bullet(Clone)"){    
@@ -39,4 +30,19 @@ public class ShotgunPhysics : MonoBehaviour
             }
         }
     }
+
+    IEnumerator slowed(Collision2D enemy)
+    {
+
+        float oldSpeed = enemy.gameObject.GetComponent<Pathfinding.IAstarAI>().maxSpeed;
+        enemy.gameObject.GetComponent<Pathfinding.IAstarAI>().maxSpeed = 0.5f;
+        // Play Ice Sound
+
+        yield return new WaitForSeconds(2.0f);
+        enemy.gameObject.GetComponent<Pathfinding.IAstarAI>().maxSpeed = oldSpeed;
+
+        //enemy.gameObject.GetComponent<Pathfinding.IAstarAI>().maxSpeed = oldSpeed;
+
+    }
+
 }
