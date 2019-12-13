@@ -12,10 +12,13 @@ public class TankMovement : MonoBehaviour
     private Vector2 moveVelocity;
     private float angle;
     private float deadzone = 0.04f;
+    public Rigidbody2D summer_body;
 
     // Start is called before the first frame update
     void Start()
     {
+        summer_body = this.GetComponent<Rigidbody2D>();
+        summer_body.freezeRotation = true;
     }
 
     // Update is called once per frame
