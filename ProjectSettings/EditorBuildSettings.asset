@@ -23,7 +23,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DemoDayBuild/GameOver.unity
     guid: 3bfe9e6e7a3d8214580149889a06b75e
-  - enabled: 0
-    path: Assets/Scenes/AlphaDayBuild/MainGame.unity
-    guid: b5deb8160fc15354eb202f5d5df09db5
   m_configObjects: {}

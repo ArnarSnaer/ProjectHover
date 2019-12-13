@@ -212,8 +212,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179160425}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.56, y: -1.18, z: -659.4052}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalPosition: {x: -3.59, y: -1.65, z: -659.4052}
+  m_LocalScale: {x: 1.17, y: 1.17, z: 1}
   m_Children:
   - {fileID: 94352204}
   - {fileID: 82491213}
@@ -1096,12 +1096,12 @@ PrefabInstance:
     - target: {fileID: 2997102702698050299, guid: 8d83243a97922b7498b021606254e130,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.14
+      value: -0.33
       objectReference: {fileID: 0}
     - target: {fileID: 2997102702698050299, guid: 8d83243a97922b7498b021606254e130,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.77
+      value: 12.6
       objectReference: {fileID: 0}
     - target: {fileID: 2997102702698050299, guid: 8d83243a97922b7498b021606254e130,
         type: 3}
@@ -1210,15 +1210,20 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7725507565520595566, guid: 7c57f57bbec497747a7c9b638578cceb,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7725507565520595567, guid: 7c57f57bbec497747a7c9b638578cceb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.64
+      value: -0.67
       objectReference: {fileID: 0}
     - target: {fileID: 7725507565520595567, guid: 7c57f57bbec497747a7c9b638578cceb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.49
+      value: -5.01
       objectReference: {fileID: 0}
     - target: {fileID: 7725507565520595567, guid: 7c57f57bbec497747a7c9b638578cceb,
         type: 3}
@@ -1711,7 +1716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAAIexs+gYnSwIAAPQEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1z2jAQ/SuMzqUDJEDorTWE9EBgQjq5+CKsNdYgSx59hK/hv3cl29hxpyfE27er93ZXvhIuTQGJVXqpOVspBuRHj/gz+dZrgi9wonslt/wCNeeDM5t5Eg2cN2q5Qnzo04zKwWqe/JR74ckDBJ3kqdL5gu0hUsYahFMqDGBIK+uzJULXHjnhT3/mU854Gk396YKn2aB3w2MC0oJuqDWxppUsJxNB8wKYl9yQR/eyJU2imYox+P7oqyshuKm0EHsugteIFsahEyQwTtFbEOCtZsD3mfUF28nrNDVgK1GanudcY4vKquSXKvuWU3MolX1S4fw9o/EkqCqLrv6J94chnGqVv9T3Dgf+Dpvx5PBGzwk1ttXYNjz/KtzJIxUHuhPwkYF8VUutnGQYtNr5VGdgNG/+3q1FGSSHBi+ldkBX/H883sMtuD9Fgue7e+cR2AoV+h2GDxpn8xsFh9UwVQlEvYo/Bt7pvr1DVeCZa2MxVLmUXt5OOe2pZBF65t04GyktIcCV6AIkFfa8wTK2O8JOrHVtJ/JM/WupLq9i9SPopAS44Q8GndBGHe/DMpk6rsBka2cFl9CI9oFX7FOkpCw3rN2TOm3rdEqTVtrecfZ1tUg6S6bp02g3Sx6QCrP+E9AHBMZjNpk+TsZDEnaPS/RJxaYUWrUHpyab4hL3rP6I9JaaFmHbmabHJb/kqtVyLlO1TTSAXJcV7sJB4yX4LtmCcWzQFqzlMsybXGMiVHIAFt8LxcHp4mQ1jZsqMSn4p7IeiUkUvhoxuZHbX1BLAwQUAAAICAAAACHsfygieWsAAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNRRUEovSizIKAaKgDmlmSkgdrRSmmWyeZqFUZJlsnFicmqqpa5FaqIxUMDUNMXM3MTM1FApFqi+pLIg1S8xNxWiJyCxJCMtMy8lMy9dz70oM8UdZLRSbC0AUEsBAi0AFAAACAgAAAAh7Gz6BidLAgAA9AQAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAAAh7H8oInlrAAAAeAAAAAkAJAAAAAAAAAAAAAAAmAIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAABOAwAAAAA=
+    dataString: UEsDBBQAAAgIAAAAIewIfpJVYgIAAAcFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMty4jAQ/BVK5yVl84z3tusQsoc8KmQrF1+ENcYqZMmlR4Ck+PcdyTZ22BOie2bUPTPyF+HS1JBbpdeas0fFgPwcEX8mP0Y9+QBHulNywz+hi3nnzJY+iIaYV2q5Qjz2aUZVYDXPf8md8MERgk7yQulqxXaQKmMNwgUVBpDSyvpsidDXiBzxZ5z4lBOeJkt/+sRTEo3OeMxBWtCD0Ogmmt0ul0kSL9qccXwTT+LpbDKftblNqpO5oFUNzPvoK0zm3V3zECbRYRvh3eRKCG5aecSe6mA/pbVxaA4DGKdoN2jy8SXwXWl9uWHyc1EYsG0vND3dcY1da6qS36ppZUXNvtH1QYWDIGkRNDVFH//jx3GgC62qh+7eOPJ32JLn+1d6yqmxg14P4bvvwp08ULGnWwHvJcgntdbKSYak1c6nOgOTu/7vxVpaQr7v8UbqFejqvt/daLvBeg/n4P6YCl5tPXUza4CNUKHfYR9A42T+oOCwLaYtgahX8dfAG90N16ol7rk2FqnWpfTytsppH0pWoWfejbOp0hIC3IquQVJhTy9Yxl6P8IobXHvF3FP/gNrLW657F1cpAe7jo+iKelGHy7BMqQ6PYMpnZwWX0Iv2xBP2KVVSNhs27EmXtnG6oPkgbec4+75apEjyZXE72Sb5FEMhGd8CnSIwn7PFcraYxyTsHpfok4qXRmjbHpya7ItL3LPuuzJaa1qHbWeaHtb8s1KDlnNZqE2uAeRzU+EiHDRegq+SrRjHBm3AWi7DvMlXRoTK98CyS6EsOF0draZZXyUjNf9Q1iMZScOHJCNncv4HUEsDBBQAAAgIAAAAIex/KCJ5awAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01FFQSi9KLMgoBoqAOaWZKSB2tFKaZbJ5moVRkmWycWJyaqqlrkVqojFQwNQ0xczcxMzUUCkWqL6ksiDVLzE3FaInILEkIy0zLyUzL13PvSgzxR1ktFJsLQBQSwECLQAUAAAICAAAACHsCH6SVWICAAAHBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAACHsfygieWsAAAB4AAAACQAkAAAAAAAAAAAAAACvAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAGUDAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -1924,7 +1929,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 15
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1978,8 +1983,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1843119198}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.041207075, y: -1.1093885, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalPosition: {x: -0.32, y: -1.82, z: 0}
+  m_LocalScale: {x: 1.08, y: 1.08, z: 1}
   m_Children:
   - {fileID: 1776496480}
   - {fileID: 820903372}
@@ -2016,17 +2021,17 @@ PrefabInstance:
     - target: {fileID: 7725507565520595566, guid: 7c57f57bbec497747a7c9b638578cceb,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7725507565520595567, guid: 7c57f57bbec497747a7c9b638578cceb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.69
+      value: -0.66
       objectReference: {fileID: 0}
     - target: {fileID: 7725507565520595567, guid: 7c57f57bbec497747a7c9b638578cceb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.461
+      value: 4.84
       objectReference: {fileID: 0}
     - target: {fileID: 7725507565520595567, guid: 7c57f57bbec497747a7c9b638578cceb,
         type: 3}
@@ -2277,7 +2282,7 @@ GameObject:
   - component: {fileID: 2002701130}
   m_Layer: 0
   m_Name: SpawnManager
-  m_TagString: Untagged
+  m_TagString: SpawnManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
