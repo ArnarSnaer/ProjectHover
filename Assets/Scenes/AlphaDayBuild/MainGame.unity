@@ -1241,22 +1241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Waves:
-  - EnemiesPerWave: 5
-    rusher: {fileID: 5163287766260426593, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
-      type: 3}
-    turtle: {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059,
-      type: 3}
-  - EnemiesPerWave: 10
-    rusher: {fileID: 5163287766260426593, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
-      type: 3}
-    turtle: {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059,
-      type: 3}
-  - EnemiesPerWave: 15
-    rusher: {fileID: 5163287766260426593, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
-      type: 3}
-    turtle: {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059,
-      type: 3}
-  - EnemiesPerWave: 20
+  - EnemiesPerWave: 2
     rusher: {fileID: 5163287766260426593, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
       type: 3}
     turtle: {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059,
@@ -1266,9 +1251,10 @@ MonoBehaviour:
   - {fileID: 1671022218}
   - {fileID: 2044760681}
   - {fileID: 2135724490}
-  TimeBetweenEnemies: 3.4
+  TimeBetweenEnemies: 0.2
   spawnEnemy: {fileID: 1422793613}
   WaveDone: {fileID: 1422793612}
+  NextLevel: Win
   turtle_switch: 0
 --- !u!82 &1422793612
 AudioSource:

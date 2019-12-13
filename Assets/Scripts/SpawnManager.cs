@@ -43,8 +43,8 @@ public class SpawnManager : MonoBehaviour
         // win
         if (_currentWave > _totalWaves)
         {
-            Debug.Log("You win!");
-            SceneManager.LoadScene("Win");
+            Debug.Log("Next level!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
         _totalEnemiesInCurrentWave = Waves[_currentWave].EnemiesPerWave;
