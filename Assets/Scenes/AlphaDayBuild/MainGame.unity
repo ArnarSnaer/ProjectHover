@@ -127,6 +127,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3017359733812716217, guid: 9ba1d56817f82c343867a0854b82fef3,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4231935497881476645, guid: 9ba1d56817f82c343867a0854b82fef3,
         type: 3}
       propertyPath: m_Volume
@@ -1250,6 +1255,8 @@ MonoBehaviour:
       type: 3}
     shielder: {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4,
       type: 3}
+    spooder: {fileID: 3618507288450559918, guid: db6273fa2093f894cbe172b1eb4afc9d,
+      type: 3}
   - EnemiesPerWave: 10
     rusher: {fileID: 5163287766260426593, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
       type: 3}
@@ -1258,6 +1265,8 @@ MonoBehaviour:
     shooter: {fileID: 3618507288450559918, guid: 956c9510c6f2b0f4aa4f8b9af2b0de26,
       type: 3}
     shielder: {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4,
+      type: 3}
+    spooder: {fileID: 3618507288450559918, guid: db6273fa2093f894cbe172b1eb4afc9d,
       type: 3}
   - EnemiesPerWave: 15
     rusher: {fileID: 5163287766260426593, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
@@ -1268,6 +1277,8 @@ MonoBehaviour:
       type: 3}
     shielder: {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4,
       type: 3}
+    spooder: {fileID: 3618507288450559918, guid: db6273fa2093f894cbe172b1eb4afc9d,
+      type: 3}
   - EnemiesPerWave: 20
     rusher: {fileID: 5163287766260426593, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
       type: 3}
@@ -1276,6 +1287,8 @@ MonoBehaviour:
     shooter: {fileID: 3618507288450559918, guid: 956c9510c6f2b0f4aa4f8b9af2b0de26,
       type: 3}
     shielder: {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4,
+      type: 3}
+    spooder: {fileID: 3618507288450559918, guid: db6273fa2093f894cbe172b1eb4afc9d,
       type: 3}
   SpawnPoints:
   - {fileID: 657548245}

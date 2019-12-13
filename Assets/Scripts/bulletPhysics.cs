@@ -26,6 +26,9 @@ public class bulletPhysics : MonoBehaviour
                 damage.flash();
                 damage.health.Damage(bullet_damage);
             }
+            else if(enemy.gameObject.tag == "Player"){
+                enemy.gameObject.GetComponent<TankMovement>().moveSpeed = 10f;
+            }
             else if(enemy.gameObject.tag != "EnemyBullet" &&
                 enemy.gameObject.tag != "PlayerBullet"){    
                     Destroy(this.gameObject);

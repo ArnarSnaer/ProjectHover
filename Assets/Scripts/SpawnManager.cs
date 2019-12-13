@@ -11,6 +11,7 @@ public class Wave
     public GameObject turtle;
     public GameObject shooter;
     public GameObject shielder;
+    public GameObject spooder;
 }
 
 public class SpawnManager : MonoBehaviour
@@ -68,7 +69,7 @@ public class SpawnManager : MonoBehaviour
 
             turtle_switch++;
             if(turtle_switch < 3000){
-                enemy = Waves[_currentWave].rusher;
+                enemy = Waves[_currentWave].spooder;
             }
             else{
                 enemy = Waves[_currentWave].shielder;
