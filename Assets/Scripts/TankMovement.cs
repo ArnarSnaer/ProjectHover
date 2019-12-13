@@ -11,7 +11,7 @@ public class TankMovement : MonoBehaviour
     private Vector2 moveInput;
     private Vector2 moveVelocity;
     private float angle;
-    private float deadzone = 0.035f;
+    private float deadzone = 0.04f;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class TankMovement : MonoBehaviour
     void Update()
     {
         // Moving object with left analog stick
-        moveInput = new Vector2(Input.GetAxisRaw("P" + playerIndex + " Horizontal"), Input.GetAxisRaw("P" + playerIndex + " Vertical"));
+        moveInput = new Vector2(Input.GetAxis("P" + playerIndex + " Horizontal"), Input.GetAxis("P" + playerIndex + " Vertical"));
         moveVelocity = moveInput * moveSpeed;
 
         // Rotating object with right analog stick

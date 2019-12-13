@@ -42,10 +42,10 @@ public class enemyHealth : MonoBehaviour
         StartCoroutine(Damaged());
     }
     IEnumerator Damaged() {
-        Renderer enemy_color = this.GetComponent<Renderer>();
+        Renderer enemy_color = this.GetComponentInChildren<Renderer>();
         Color old_color = enemy_color.material.color;
         enemy_color.material.color = new Color (0.5f,0.5f,0.5f,1);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
         enemy_color.material.color = old_color;
     }
 }

@@ -65,7 +65,6 @@ public class SpawnManager : MonoBehaviour
             _enemiesInWaveLeft++;
 
             turtle_switch++;
-            Debug.Log("turtle Switch: " + turtle_switch);
             if(turtle_switch < 5){
                 enemy = Waves[_currentWave].rusher;
             }
