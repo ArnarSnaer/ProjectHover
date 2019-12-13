@@ -11,13 +11,14 @@ GameObject:
   - component: {fileID: 3618507288450559829}
   - component: {fileID: 3618507288450559830}
   - component: {fileID: 3618507288450559825}
+  - component: {fileID: 1168023378660516491}
   - component: {fileID: 3618507288450559826}
   - component: {fileID: 3618507288450559827}
   - component: {fileID: 3618507288450559916}
   - component: {fileID: 3618507288450559917}
   - component: {fileID: 3618507288450559828}
   m_Layer: 0
-  m_Name: Rusher
+  m_Name: Shooter
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,11 +31,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3618507288450559918}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 29.9013, y: -18.9477, z: -0.734375}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3362005}
   m_Children:
   - {fileID: 3618507289363102842}
+  - {fileID: 3862650133376393410}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -87,6 +89,18 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &1168023378660516491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3618507288450559918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5415ccbab629f764d91cdb3c67b225f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3618507288450559826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -501,3 +515,55 @@ PolygonCollider2D:
       - {x: 0.31, y: -0.03}
       - {x: 0.41, y: 0}
       - {x: 0.55, y: 0.089999996}
+--- !u!1 &5033018482072158886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3862650133376393410}
+  - component: {fileID: 446411422098171735}
+  m_Layer: 0
+  m_Name: EnemyCannon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3862650133376393410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5033018482072158886}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 3.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3618507288450559829}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &446411422098171735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5033018482072158886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebc77a8bd31bba4f8bf13f2759d480c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFiring: 0
+  bullet: {fileID: 8339096053138204986, guid: c5adcb090b865734398d057f9d536bcc, type: 3}
+  bulletSpeed: 10
+  cooldown: 0.5
+  shotCounter: 0
+  firePoint: {fileID: 3862650133376393410}
+  shoot: {fileID: 0}
+  impactParticle: {fileID: 976798658360880229, guid: 287bbefe844da47418c53263f459ba53,
+    type: 3}

@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bulletPhysics : MonoBehaviour
+public class EnemyBulletController : MonoBehaviour
 {
-
     private int bullet_damage = 10;
     // Start is called before the first frame update
     void Start()
     {
-      
+        
     }
 
     // Update is called once per frame
@@ -20,11 +19,11 @@ public class bulletPhysics : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D enemy){
     if(enemy != null){
-            if(enemy.gameObject.tag == "enemy"){
+            if(enemy.gameObject.tag == "Player"){
                 Destroy (this.gameObject);
-                enemyHealth damage = enemy.gameObject.GetComponent<enemyHealth>();
-                damage.flash();
-                damage.health.Damage(bullet_damage);
+                TankMovement tank = enemy.gameObject.GetComponent<TankMovement>();
+                tank.player_flash();
+                GameManager.damagePlayers(bullet_damage);
             }
             else if(enemy.gameObject.tag != "EnemyBullet" &&
                 enemy.gameObject.tag != "PlayerBullet"){    
