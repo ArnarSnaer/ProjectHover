@@ -1295,9 +1295,10 @@ MonoBehaviour:
   - {fileID: 1671022218}
   - {fileID: 2044760681}
   - {fileID: 2135724490}
-  TimeBetweenEnemies: 3.4
+  TimeBetweenEnemies: 0.2
   spawnEnemy: {fileID: 1422793613}
   WaveDone: {fileID: 1422793612}
+  NextLevel: Win
   turtle_switch: 0
 --- !u!82 &1422793612
 AudioSource:

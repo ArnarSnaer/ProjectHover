@@ -6,15 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/AlphaDayBuild/MainMenu.unity
+    path: Assets/Scenes/DemoDayBuild/1MainMenu.unity
     guid: b4e522c79f385cc498bd5a592993cfbc
   - enabled: 1
-    path: Assets/Scenes/AlphaDayBuild/MainGame.unity
-    guid: b5deb8160fc15354eb202f5d5df09db5
+    path: Assets/Scenes/DemoDayBuild/2LevelOne.unity
+    guid: a90bc5da1ef262341b61c9d53283493b
   - enabled: 1
-    path: Assets/Scenes/AlphaDayBuild/GameOver.unity
-    guid: 3bfe9e6e7a3d8214580149889a06b75e
+    path: Assets/Scenes/DemoDayBuild/3LevelTwo.unity
+    guid: 58aae70f3892f6a42b07c85d1d72faf0
   - enabled: 1
-    path: Assets/Scenes/AlphaDayBuild/Win.unity
+    path: Assets/Scenes/DemoDayBuild/4LevelThree.unity
+    guid: 3c15121ffdde72a4bb524cf39a8388ae
+  - enabled: 1
+    path: Assets/Scenes/DemoDayBuild/Win.unity
     guid: e7ee5b597bf8fd34c89ecc6a68d507e2
+  - enabled: 1
+    path: Assets/Scenes/DemoDayBuild/GameOver.unity
+    guid: 3bfe9e6e7a3d8214580149889a06b75e
   m_configObjects: {}
