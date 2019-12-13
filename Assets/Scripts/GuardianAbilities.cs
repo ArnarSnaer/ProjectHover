@@ -94,13 +94,12 @@ public class GuardianAbilities : MonoBehaviour
         point = this.transform.Find("BulletSpawn");
         float bulletSpeed = 10f;
         //shoot.Play();
-        Debug.Log(point);
 
-        bulletControler newBullet1 = Instantiate(bullet, point.position, Quaternion.Euler(point.rotation.x, point.rotation.y, point.eulerAngles.z - 40)) as bulletControler;
-        bulletControler newBullet2 = Instantiate(bullet, point.position, Quaternion.Euler(point.rotation.x, point.rotation.y, point.eulerAngles.z - 20)) as bulletControler;
+        bulletControler newBullet1 = Instantiate(bullet, point.position, Quaternion.Euler(point.rotation.x, point.rotation.y, point.eulerAngles.z - 30)) as bulletControler;
+        bulletControler newBullet2 = Instantiate(bullet, point.position, Quaternion.Euler(point.rotation.x, point.rotation.y, point.eulerAngles.z - 15)) as bulletControler;
         bulletControler newBullet3 = Instantiate(bullet, point.position, point.rotation)    as bulletControler;
-        bulletControler newBullet4 = Instantiate(bullet, point.position, Quaternion.Euler(point.rotation.x, point.rotation.y, point.eulerAngles.z + 20)) as bulletControler;
-        bulletControler newBullet5 = Instantiate(bullet, point.position, Quaternion.Euler(point.rotation.x, point.rotation.y, point.eulerAngles.z + 40)) as bulletControler;
+        bulletControler newBullet4 = Instantiate(bullet, point.position, Quaternion.Euler(point.rotation.x, point.rotation.y, point.eulerAngles.z + 15)) as bulletControler;
+        bulletControler newBullet5 = Instantiate(bullet, point.position, Quaternion.Euler(point.rotation.x, point.rotation.y, point.eulerAngles.z + 30)) as bulletControler;
 
         newBullet1.speed = bulletSpeed;
         newBullet2.speed = bulletSpeed;

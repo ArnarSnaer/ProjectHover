@@ -32,7 +32,6 @@ public class GameManager : MonoBehaviour
     }
 
     private void HealthSystem_Ded(object sender, System.EventArgs e){
-        Debug.Log("Game over!");
         GameOver();
     }
 

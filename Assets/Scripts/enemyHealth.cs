@@ -54,4 +54,21 @@ public class enemyHealth : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
         enemy_color.material.color = old_color;
     }
+
+    public void slowed()
+    {
+        StartCoroutine(freeze());
+    }
+
+    IEnumerator freeze()
+    {
+        Renderer enemy_color = this.GetComponentInChildren<Renderer>();
+        float oldSpeed = this.GetComponent<Pathfinding.IAstarAI>().maxSpeed;
+        this.GetComponent<Pathfinding.IAstarAI>().maxSpeed = 0.5f;
+        // Play Ice Sound
+
+        enemy_color.material.color = new Color (0f, 1f, 1f, 1f);
+        yield return new WaitForSeconds(2.0f);
+        this.GetComponent<Pathfinding.IAstarAI>().maxSpeed = oldSpeed;
+    }
 }
