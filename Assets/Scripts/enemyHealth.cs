@@ -42,7 +42,13 @@ public class enemyHealth : MonoBehaviour
         StartCoroutine(Damaged());
     }
     IEnumerator Damaged() {
-        Renderer enemy_color = this.GetComponentInChildren<Renderer>();
+        Renderer [] enemy_colors = this.GetComponentsInChildren<Renderer>();
+        Renderer enemy_color = null;
+        foreach(Renderer enemy in enemy_colors){
+            if(enemy.tag == "SpriteRenderer"){
+                enemy_color = enemy;   
+            }
+        }
         Color old_color = enemy_color.material.color;
         enemy_color.material.color = new Color (0.5f,0.5f,0.5f,1);
         yield return new WaitForSeconds(0.2f);
