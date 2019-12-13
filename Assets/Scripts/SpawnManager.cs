@@ -83,6 +83,9 @@ public class SpawnManager : MonoBehaviour
             TankMovement player2 = players[1];
             Transform direction1 = player1.transform;
             Transform direction2 = player2.transform;
+            Debug.Log(enemy);
+            Debug.Log(SpawnPoints[spawnPointIndex].position);
+            Debug.Log(SpawnPoints[spawnPointIndex].rotation);
             GameObject clone = Instantiate(enemy, SpawnPoints[spawnPointIndex].position, SpawnPoints[spawnPointIndex].rotation);
             spawnEnemy.Play();
             Pathfinding.AIDestinationSetter player_target = clone.GetComponent<Pathfinding.AIDestinationSetter>();
