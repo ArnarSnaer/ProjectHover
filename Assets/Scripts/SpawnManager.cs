@@ -9,6 +9,8 @@ public class Wave
     public int EnemiesPerWave;
     public GameObject rusher;
     public GameObject turtle;
+    public GameObject shooter;
+    public GameObject shielder;
 }
 
 public class SpawnManager : MonoBehaviour
@@ -65,11 +67,11 @@ public class SpawnManager : MonoBehaviour
             _enemiesInWaveLeft++;
 
             turtle_switch++;
-            if(turtle_switch < 5){
+            if(turtle_switch < 2){
                 enemy = Waves[_currentWave].rusher;
             }
             else{
-                enemy = Waves[_currentWave].turtle;
+                enemy = Waves[_currentWave].shielder;
                 turtle_switch = 0;
             }
 
