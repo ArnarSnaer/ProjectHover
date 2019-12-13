@@ -10,7 +10,7 @@ public class GameOver : MonoBehaviour
     {
         if (Input.GetButton("P1 PS4 X") || Input.GetButton("P2 PS4 Circle"))
         {
-            SceneManager.LoadScene("MainMenu");        
+            SceneManager.LoadScene("1MainMenu");        
         }
     }
 }

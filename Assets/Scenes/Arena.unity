@@ -535,7 +535,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 17.312656
+  orthographic size: 22.649445
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -563,7 +563,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1088566291 stripped
 Transform:
@@ -1028,14 +1028,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Waves:
   - EnemiesPerWave: 5
-    Enemy: {fileID: 1990894312}
+    rusher: {fileID: 0}
+    turtle: {fileID: 0}
   - EnemiesPerWave: 10
-    Enemy: {fileID: 1990894312}
+    rusher: {fileID: 0}
+    turtle: {fileID: 0}
   SpawnPoints:
   - {fileID: 1220912864}
   - {fileID: 1470582592}
   TimeBetweenEnemies: 0.1
-  target: {fileID: 1990894312}
+  spawnEnemy: {fileID: 0}
+  WaveDone: {fileID: 0}
+  turtle_switch: 0
 --- !u!4 &1722262814 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6940909260427833849, guid: fa318b765b0955c4294a5dba11256fa3,
@@ -1134,12 +1138,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1990894312 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2500892558904937428, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1407659292}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3421121380583234673
 PrefabInstance:
   m_ObjectHideFlags: 0
