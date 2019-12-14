@@ -298,12 +298,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62752c35a6829a449c0810404888c6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  l1Cooldown: 0
+  l1Cooldown: 3
   l2Cooldown: 3
   bullet: {fileID: 0}
   grenade: {fileID: 8339096053138204986, guid: d481e2c8940250a4a9de26415141c442, type: 3}
+  piercing_shot: {fileID: 8339096053138204986, guid: 89286dc2382e74b41abdcedfe46c7c5f,
+    type: 3}
   piercingClip: {fileID: 0}
   grenadeClip: {fileID: 0}
+  max_piercing: 3
   piercingCountdown: 0
   grenadeCountdown: 0
 --- !u!114 &2620836643925970966
