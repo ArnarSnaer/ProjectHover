@@ -12,7 +12,7 @@ public class NextLevel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator.SetBool("Fade", false);
     }
 
     // Update is called once per frame
@@ -23,6 +23,7 @@ public class NextLevel : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D player){
         if(player.gameObject.tag == "Player"){
+            Debug.Log("Touchie");
             StartCoroutine(Fading());
         }
 
