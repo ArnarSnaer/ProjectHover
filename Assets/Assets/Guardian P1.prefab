@@ -50,7 +50,8 @@ MonoBehaviour:
   shotCounter: 10
   firePoint: {fileID: 4592734901587378172}
   shoot: {fileID: 0}
-  impactParticle: {fileID: 0}
+  impactParticle: {fileID: 976798658360880229, guid: 287bbefe844da47418c53263f459ba53,
+    type: 3}
 --- !u!1 &8494307702143412316
 GameObject:
   m_ObjectHideFlags: 0
@@ -68,7 +69,7 @@ GameObject:
   - component: {fileID: -4812216701540830072}
   - component: {fileID: 178563411712990400}
   m_Layer: 0
-  m_Name: Guardian
+  m_Name: Guardian P1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -175,6 +176,7 @@ MonoBehaviour:
   moveSpeed: 10
   rb: {fileID: 3017359733812716217}
   playerIndex: 1
+  summer_body: {fileID: 0}
 --- !u!114 &5904000034621175843
 MonoBehaviour:
   m_ObjectHideFlags: 0

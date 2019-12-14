@@ -21,6 +21,7 @@ public class SpawnManager : MonoBehaviour
     public float TimeBetweenEnemies = 2f;
     public AudioSource spawnEnemy;
     public AudioSource WaveDone;
+    public GameObject ExitPortal;
     private int _totalEnemiesInCurrentWave;
     private int _enemiesInWaveLeft;
     private int _spawnedEnemies;
@@ -47,7 +48,8 @@ public class SpawnManager : MonoBehaviour
         if (_currentWave > _totalWaves)
         {
             Debug.Log("Next level!");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Instantiate(ExitPortal, new Vector3(0, 0, 0), Quaternion.identity);
+            // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
         _totalEnemiesInCurrentWave = Waves[_currentWave].EnemiesPerWave;
