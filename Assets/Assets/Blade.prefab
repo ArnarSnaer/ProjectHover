@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5205724250769514522
+--- !u!1 &2811472713361615406
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2408104107414008246}
-  - component: {fileID: 7711037436448073467}
+  - component: {fileID: 2797473434877865204}
+  m_Layer: 0
+  m_Name: GrenadeSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2797473434877865204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2811472713361615406}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.02, y: 3.24, z: 0}
+  m_LocalScale: {x: 0.88186204, y: 0.88186204, z: 0.88186204}
+  m_Children: []
+  m_Father: {fileID: 5771528483775142351}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6259968144965462580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4449210330988057293}
+  - component: {fileID: 3856083619812868049}
+  - component: {fileID: 7239923436291398329}
   m_Layer: 0
   m_Name: BulletSpawn
   m_TagString: Untagged
@@ -17,27 +48,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2408104107414008246
+--- !u!4 &4449210330988057293
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5205724250769514522}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 1.8, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_GameObject: {fileID: 6259968144965462580}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.12, y: 3.02, z: 0}
+  m_LocalScale: {x: 0.53547436, y: 0.53547436, z: 0.53547436}
   m_Children: []
   m_Father: {fileID: 5771528483775142351}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7711037436448073467
+--- !u!114 &3856083619812868049
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5205724250769514522}
+  m_GameObject: {fileID: 6259968144965462580}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae8d67ecaa28aec43bbf51c11ee0a0da, type: 3}
@@ -45,10 +76,109 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFiring: 0
   bullet: {fileID: 8339096053138204986, guid: 58a6a6893da52a7418318b57d0eeb85e, type: 3}
-  bulletSpeed: 10
-  cooldown: -5
-  shotCounter: 10
-  firePoint: {fileID: 2408104107414008246}
+  bulletSpeed: 15
+  cooldown: 0.3
+  shotCounter: 0
+  firePoint: {fileID: 4449210330988057293}
+  shoot: {fileID: 7239923436291398329}
+  impactParticle: {fileID: 976798658360880229, guid: 287bbefe844da47418c53263f459ba53,
+    type: 3}
+--- !u!82 &7239923436291398329
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6259968144965462580}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 80f9efba3d2bd1449a1600e025a2188f, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.466
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &8424581074032806129
 GameObject:
   m_ObjectHideFlags: 0
@@ -60,11 +190,12 @@ GameObject:
   - component: {fileID: 5771528483775142351}
   - component: {fileID: 1929666062055193958}
   - component: {fileID: 6293102657509262722}
-  - component: {fileID: 8458135056740602050}
+  - component: {fileID: -5716614805379507793}
   - component: {fileID: 2620836643925970966}
+  - component: {fileID: 8265407848671082126}
   m_Layer: 0
   m_Name: Blade
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80,7 +211,8 @@ Transform:
   m_LocalPosition: {x: -5.36, y: 0.19, z: 0}
   m_LocalScale: {x: 0.8485, y: 0.8485, z: 1.697}
   m_Children:
-  - {fileID: 2408104107414008246}
+  - {fileID: 4449210330988057293}
+  - {fileID: 2797473434877865204}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -154,32 +286,26 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &8458135056740602050
-BoxCollider2D:
+--- !u!114 &-5716614805379507793
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8424581074032806129}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.067712784, y: -0.013533354}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.83, y: 2.78}
-    newSize: {x: 3.72, y: 5.12}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.960359, y: 2.89927}
-  m_EdgeRadius: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62752c35a6829a449c0810404888c6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  l1Cooldown: 0
+  l2Cooldown: 3
+  bullet: {fileID: 0}
+  grenade: {fileID: 8339096053138204986, guid: d481e2c8940250a4a9de26415141c442, type: 3}
+  piercingClip: {fileID: 0}
+  grenadeClip: {fileID: 0}
+  piercingCountdown: 0
+  grenadeCountdown: 0
 --- !u!114 &2620836643925970966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,3 +321,81 @@ MonoBehaviour:
   moveSpeed: 10
   rb: {fileID: 6293102657509262722}
   playerIndex: 
+  summer_body: {fileID: 0}
+--- !u!60 &8265407848671082126
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8424581074032806129}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.83, y: 2.78}
+    newSize: {x: 3.72, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.95, y: -1.5849999}
+      - {x: 1.31, y: -0.114999995}
+      - {x: 1.3299999, y: -0.024999999}
+      - {x: 1.3299999, y: 0.035}
+      - {x: 1.27, y: 0.185}
+      - {x: 1.1999999, y: 0.355}
+      - {x: 0.84, y: 1.235}
+      - {x: 0.79999995, y: 1.3149999}
+      - {x: 0.14, y: 1.3149999}
+      - {x: 0.14, y: 1.8249999}
+      - {x: 0.19999999, y: 1.875}
+      - {x: 0.22, y: 1.925}
+      - {x: 0.22, y: 2.075}
+      - {x: 0.14999999, y: 2.125}
+      - {x: -0.089999996, y: 2.125}
+      - {x: -0.12, y: 2.115}
+      - {x: -0.17999999, y: 2.075}
+      - {x: -0.19, y: 1.9749999}
+      - {x: -0.14999999, y: 1.885}
+      - {x: -0.089999996, y: 1.8349999}
+      - {x: -0.089999996, y: 1.3149999}
+      - {x: -0.71, y: 1.3149999}
+      - {x: -0.72999996, y: 1.305}
+      - {x: -0.75, y: 1.255}
+      - {x: -0.81, y: 1.125}
+      - {x: -0.81, y: 1.105}
+      - {x: -0.94, y: 0.84499997}
+      - {x: -1.06, y: 0.585}
+      - {x: -1.13, y: 0.435}
+      - {x: -1.13, y: 0.415}
+      - {x: -1.25, y: 0.175}
+      - {x: -1.31, y: 0.044999998}
+      - {x: -1.3199999, y: -0.005}
+      - {x: -1.31, y: -0.044999998}
+      - {x: -1.2099999, y: -0.405}
+      - {x: -1.18, y: -0.515}
+      - {x: -1.16, y: -0.585}
+      - {x: -1.1, y: -0.805}
+      - {x: -1.0799999, y: -0.875}
+      - {x: -1.05, y: -0.98499995}
+      - {x: -1.03, y: -1.055}
+      - {x: -1, y: -1.165}
+      - {x: -0.97999996, y: -1.235}
+      - {x: -0.95, y: -1.345}
+      - {x: -0.79999995, y: -1.885}
+      - {x: -0.77, y: -1.995}
+      - {x: -0.72999996, y: -2.135}
+      - {x: -0.71, y: -2.155}
+      - {x: 0.78999996, y: -2.155}
+      - {x: 0.81, y: -2.145}
+      - {x: 0.82, y: -2.115}
+      - {x: 0.84, y: -2.0249999}
