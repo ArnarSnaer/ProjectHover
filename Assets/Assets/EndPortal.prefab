@@ -94,6 +94,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8b735bee411cd74cbe50d7869e064f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  black: {fileID: 3655393151595017125, guid: bf8bc67aa8761854c90293195e2f53a8, type: 3}
+  animator: {fileID: 3655393151595017127, guid: bf8bc67aa8761854c90293195e2f53a8,
+    type: 3}
 --- !u!60 &2461843543091807319
 PolygonCollider2D:
   m_ObjectHideFlags: 0
