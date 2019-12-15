@@ -171,7 +171,17 @@ PrefabInstance:
     - target: {fileID: 5163287766260426593, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
         type: 3}
       propertyPath: m_Name
-      value: Turtle
+      value: Turtle Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5163287766260426594, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
+        type: 3}
+      propertyPath: max_health
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5163287766260426595, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
+        type: 3}
+      propertyPath: damage_amount
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5163287766260426650, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
         type: 3}
@@ -227,6 +237,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5163287766260426653, guid: d37bc185cc7ad9041b7fe5b9e7df22fb,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1328878839604635678, guid: d37bc185cc7ad9041b7fe5b9e7df22fb, type: 3}
