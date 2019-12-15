@@ -43,7 +43,7 @@ public class SpawnManager : MonoBehaviour
         if (_currentWave > _totalWaves)
         {
             Debug.Log("Next level!");
-            Instantiate(ExitPortal, new Vector3(0, 0, 0), Quaternion.identity);
+            Instantiate(ExitPortal, new Vector3(0, -2, 0), Quaternion.identity);
             // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
