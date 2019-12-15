@@ -13,12 +13,15 @@ public class TankMovement : MonoBehaviour
     private float angle;
     private float deadzone = 0.04f;
     public Rigidbody2D summer_body;
-
+    Renderer enemy_color;
+    Color old_color;
     // Start is called before the first frame update
     void Start()
     {
         summer_body = this.GetComponent<Rigidbody2D>();
         summer_body.freezeRotation = true;
+        enemy_color = this.GetComponent<Renderer>();
+        old_color = enemy_color.material.color;
     }
 
     // Update is called once per frame
@@ -50,8 +53,6 @@ public class TankMovement : MonoBehaviour
         StartCoroutine(Damaged());
     }
     public IEnumerator Damaged() {
-        Renderer enemy_color = this.GetComponent<Renderer>();
-        Color old_color = enemy_color.material.color;
         enemy_color.material.color = new Color (1,0,0,1);
         yield return new WaitForSeconds(0.5f);
         enemy_color.material.color = old_color;

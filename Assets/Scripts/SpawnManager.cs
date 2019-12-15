@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 [System.Serializable]
 public class Wave
 {
-    public int EnemiesPerWave;
+    public GameObject [] EnemiesPerWave;
     public GameObject rusher;
     public GameObject turtle;
     public GameObject shooter;
@@ -21,6 +21,7 @@ public class SpawnManager : MonoBehaviour
     public float TimeBetweenEnemies = 2f;
     public AudioSource spawnEnemy;
     public AudioSource WaveDone;
+    public GameObject ExitPortal;
     private int _totalEnemiesInCurrentWave;
     private int _enemiesInWaveLeft;
     private int _spawnedEnemies;
@@ -47,10 +48,11 @@ public class SpawnManager : MonoBehaviour
         if (_currentWave > _totalWaves)
         {
             Debug.Log("Next level!");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Instantiate(ExitPortal, new Vector3(0, -2, 0), Quaternion.identity);
+            // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
-        _totalEnemiesInCurrentWave = Waves[_currentWave].EnemiesPerWave;
+        _totalEnemiesInCurrentWave = Waves[_currentWave].EnemiesPerWave.Length;
         _enemiesInWaveLeft = 0;
         _spawnedEnemies = 0;
 
@@ -64,17 +66,7 @@ public class SpawnManager : MonoBehaviour
         yield return new WaitForSeconds(5);
         while (_spawnedEnemies < _totalEnemiesInCurrentWave)
         {
-            _spawnedEnemies++;
-            _enemiesInWaveLeft++;
-
-            turtle_switch++;
-            if(turtle_switch < 3000){
-                enemy = Waves[_currentWave].spooder;
-            }
-            else{
-                enemy = Waves[_currentWave].shielder;
-                turtle_switch = 0;
-            }
+            enemy = Waves[_currentWave].EnemiesPerWave[_spawnedEnemies];
 
             int spawnPointIndex = Random.Range(0, SpawnPoints.Length);
 
@@ -84,9 +76,6 @@ public class SpawnManager : MonoBehaviour
             TankMovement player2 = players[1];
             Transform direction1 = player1.transform;
             Transform direction2 = player2.transform;
-            Debug.Log(enemy);
-            Debug.Log(SpawnPoints[spawnPointIndex].position);
-            Debug.Log(SpawnPoints[spawnPointIndex].rotation);
             GameObject clone = Instantiate(enemy, SpawnPoints[spawnPointIndex].position, SpawnPoints[spawnPointIndex].rotation);
             spawnEnemy.Play();
             Pathfinding.AIDestinationSetter player_target = clone.GetComponent<Pathfinding.AIDestinationSetter>();
@@ -98,6 +87,8 @@ public class SpawnManager : MonoBehaviour
                 player_target.target = direction2; 
                 target_switch = 1; 
             }
+            _spawnedEnemies++;
+            _enemiesInWaveLeft++;
             yield return new WaitForSeconds(TimeBetweenEnemies);
         }
         TimeBetweenEnemies /= 2;
