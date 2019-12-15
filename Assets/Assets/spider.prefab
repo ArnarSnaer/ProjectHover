@@ -106,7 +106,7 @@ MonoBehaviour:
   repathRate: 0.5
   canSearch: 1
   canMove: 1
-  maxSpeed: 8
+  maxSpeed: 12
   gravity: {x: NaN, y: NaN, z: NaN}
   groundMask:
     serializedVersion: 2
@@ -275,6 +275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2db9976b00354542b0d523bc9eef274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spooder_web: {fileID: 2441365703570570898, guid: f78fa8d263e81f34692423c6544de7a4,
+    type: 3}
 --- !u!1 &3618507289363102843
 GameObject:
   m_ObjectHideFlags: 0

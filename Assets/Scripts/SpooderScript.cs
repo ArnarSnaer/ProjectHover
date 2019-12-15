@@ -22,7 +22,9 @@ public class SpooderScript : MonoBehaviour
                 TankMovement tank = enemy.gameObject.GetComponent<TankMovement>();
                 tank.moveSpeed = 0;
                 Transform point = tank.gameObject.transform;
-                GameObject newBullet12 = Instantiate(spooder_web, point.position, Quaternion.Euler(point.rotation.x, point.rotation.y, point.eulerAngles.z + 180)) as GameObject;
+                string player_index = tank.playerIndex;
+                GameObject web = Instantiate(spooder_web, point.position, Quaternion.Euler(point.rotation.x, point.rotation.y, point.eulerAngles.z + 180)) as GameObject;
+                web.GetComponent<WebPhysics>().player_index = player_index;
             }
         }
     }

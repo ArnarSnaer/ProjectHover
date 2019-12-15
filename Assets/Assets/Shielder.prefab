@@ -171,7 +171,7 @@ PolygonCollider2D:
       - {x: 1.99, y: 0.87}
       - {x: 2.0386848, y: 0.11181551}
       - {x: 2.06, y: 0.96999997}
-      - {x: 1.9361591, y: 1.226922}
+      - {x: 3.15539, y: 2.2316718}
       - {x: 1.89, y: 1.27}
       - {x: 1.81, y: 1.26}
       - {x: 1.76, y: 1.3199999}
@@ -208,7 +208,7 @@ PolygonCollider2D:
       - {x: -1.6999999, y: 1.31}
       - {x: -1.79, y: 1.28}
       - {x: -1.7761612, y: 1.2442026}
-      - {x: -1.9599999, y: 1.04}
+      - {x: -3.1578379, y: 2.2799087}
       - {x: -1.99, y: 0.96999997}
       - {x: -1.99, y: 0.91999996}
       - {x: -1.9018974, y: 0.09348589}
@@ -313,7 +313,7 @@ PrefabInstance:
     - target: {fileID: 6940909260427833849, guid: fa318b765b0955c4294a5dba11256fa3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.89
+      value: 3.33
       objectReference: {fileID: 0}
     - target: {fileID: 6940909260427833849, guid: fa318b765b0955c4294a5dba11256fa3,
         type: 3}
@@ -426,6 +426,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618507288450559826, guid: 5fbde6cd334f08a4a9ab212efcbbaf94,
+        type: 3}
+      propertyPath: radius
+      value: 4.4
       objectReference: {fileID: 0}
     - target: {fileID: 3618507288450559829, guid: 5fbde6cd334f08a4a9ab212efcbbaf94,
         type: 3}
