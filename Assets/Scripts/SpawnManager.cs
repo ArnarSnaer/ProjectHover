@@ -19,6 +19,7 @@ public class SpawnManager : MonoBehaviour
     public AudioSource WaveDone;
     public GameObject ExitPortal;
     public TMPro.TextMeshProUGUI waveLabel;
+    public TMPro.TextMeshProUGUI enemyLabel;
     private int _totalEnemiesInCurrentWave;
     private int _enemiesInWaveLeft;
     private int _spawnedEnemies;
@@ -53,6 +54,7 @@ public class SpawnManager : MonoBehaviour
         }
 
         _totalEnemiesInCurrentWave = Waves[_currentWave].EnemiesPerWave.Length;
+        enemyLabel.text = "Enemies left: " + _totalEnemiesInCurrentWave;
         _enemiesInWaveLeft = 0;
         _spawnedEnemies = 0;
 
@@ -100,6 +102,7 @@ public class SpawnManager : MonoBehaviour
     {
         Debug.Log("Enemy kill");
         _enemiesInWaveLeft--;
+        enemyLabel.text = "Enemies left: " + _enemiesInWaveLeft;
         
         // We start the next wave once we have spawned and defeated them all
         if (_enemiesInWaveLeft <= 0 && _spawnedEnemies >= _totalEnemiesInCurrentWave)
