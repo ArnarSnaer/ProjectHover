@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public HealthBar healthBar;
     public static HealthSystem playerHealth;
+    public GameObject explosionRef;
 
 
     // Start is called before the first frame update
@@ -37,6 +38,21 @@ public class GameManager : MonoBehaviour
 
     void GameOver()
     {
+        TankMovement[] players = FindObjectsOfType<TankMovement>();
+        TankMovement player1 = players[0];
+        TankMovement player2 = players[1];
+        Destroy(player1.gameObject);
+        Instantiate(explosionRef, player1.transform.position, Quaternion.identity);
+        Destroy(player2.gameObject);
+        Instantiate(explosionRef, player2.transform.position, Quaternion.identity);
+
+        StartCoroutine(Delay());
+    }
+
+    IEnumerator Delay()
+    {
+        Debug.Log("Goes off!");
+        yield return new WaitForSeconds(3);
         SceneManager.LoadScene("GameOver");
     }
 }
