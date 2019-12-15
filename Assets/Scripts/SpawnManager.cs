@@ -113,6 +113,10 @@ public class SpawnManager : MonoBehaviour
             GameManager.healPlayers(25);
             StartNextWave();
             currWave += 1;
+            if(enemiesLeft < 0)
+            {
+                enemyLabel.text = "Enemies left: 0";
+            }
             waveLabel.text = "Wave: " + currWave + " / " + Waves.Length;
         }
     }
