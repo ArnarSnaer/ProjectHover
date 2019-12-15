@@ -852,6 +852,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 689587020}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &701854925 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3917405101899591550, guid: 0fc371b9583dbaa47b794460f9388c8e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3917405102287287204}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &730226950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1100,7 +1106,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1961841637}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1308,7 +1314,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1961841637}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1400,12 +1406,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -399.1092, y: -252.42859, z: -3822.1416}
   m_LocalScale: {x: 1.5503876, y: 1.5503876, z: 1.5503876}
-  m_Children:
-  - {fileID: 1594412156}
-  - {fileID: 292261814}
-  - {fileID: 1922172363}
+  m_Children: []
   m_Father: {fileID: 1961841637}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1084905678 stripped
 GameObject:
@@ -1908,8 +1911,7 @@ PrefabInstance:
       value: Player2
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 8265407848671082126, guid: 51bd1b4e7b54a7449b174b14135603fc, type: 3}
-    - {fileID: 4923260630537279024, guid: 51bd1b4e7b54a7449b174b14135603fc, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51bd1b4e7b54a7449b174b14135603fc, type: 3}
 --- !u!1001 &1555938134
 PrefabInstance:
@@ -2817,10 +2819,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 701854925}
   - {fileID: 1059445978}
-  - {fileID: 1058879854}
   - {fileID: 5267615620171827838}
   - {fileID: 1940127964}
+  - {fileID: 1058879854}
   - {fileID: 771189394}
   m_Father: {fileID: 0}
   m_RootOrder: 8

@@ -3659,7 +3659,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Waves:
-  - EnemiesPerWave: []
+  - EnemiesPerWave:
+    - {fileID: 3618507288450559918, guid: 479774173d9c3b649ab5c16a42f8d782, type: 3}
+    - {fileID: 3618507288450559918, guid: 479774173d9c3b649ab5c16a42f8d782, type: 3}
+    - {fileID: 3618507288450559918, guid: 479774173d9c3b649ab5c16a42f8d782, type: 3}
+    - {fileID: 3618507288450559918, guid: 479774173d9c3b649ab5c16a42f8d782, type: 3}
+    - {fileID: 3618507288450559918, guid: 479774173d9c3b649ab5c16a42f8d782, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   SpawnPoints:
   - {fileID: 1573540291}
   - {fileID: 1928324783}
