@@ -19,9 +19,7 @@ public class Shooter_Cannon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        shotCounter = 0.0f;
-        Pathfinding.AIDestinationSetter ai_destination = this.GetComponent<Pathfinding.AIDestinationSetter>();
-        target = ai_destination.target;
+        StartCoroutine(LateStart());
     }
 
     // Update is called once per frame
@@ -50,5 +48,12 @@ public class Shooter_Cannon : MonoBehaviour
     void FixedUpdate()
     {
 
+    }
+    IEnumerator LateStart()
+    {
+        yield return new WaitForSeconds(0.5f);
+        shotCounter = 0.0f;
+        Pathfinding.AIDestinationSetter ai_destination = this.GetComponent<Pathfinding.AIDestinationSetter>();
+        target = ai_destination.target;
     }
 }

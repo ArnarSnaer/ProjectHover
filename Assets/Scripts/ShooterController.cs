@@ -11,10 +11,8 @@ public class ShooterController : MonoBehaviour
     private Transform target;
     void Start()
     {
-        Pathfinding.AIDestinationSetter ai_destination = this.GetComponent<Pathfinding.AIDestinationSetter>();
-        target = ai_destination.target;
-        ai_star = this.GetComponent<Pathfinding.IAstarAI>();
-        base_speed = ai_star.maxSpeed;
+        StartCoroutine(LateStart());
+
     }
 
     // Update is called once per frame
@@ -28,4 +26,13 @@ public class ShooterController : MonoBehaviour
             ai_star.maxSpeed = base_speed;
         }
     }
+ 
+     IEnumerator LateStart()
+     {
+         yield return new WaitForSeconds(0.5f);
+        Pathfinding.AIDestinationSetter ai_destination = this.GetComponent<Pathfinding.AIDestinationSetter>();
+        target = ai_destination.target;
+        ai_star = this.GetComponent<Pathfinding.IAstarAI>();
+        base_speed = ai_star.maxSpeed;
+     }
 }
