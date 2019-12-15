@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpooderScript : MonoBehaviour
 {
+    public GameObject spooder_web;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,8 @@ public class SpooderScript : MonoBehaviour
             if(enemy.gameObject.GetComponent<TankMovement>() != null){
                 TankMovement tank = enemy.gameObject.GetComponent<TankMovement>();
                 tank.moveSpeed = 0;
+                Transform point = tank.gameObject.transform;
+                GameObject newBullet12 = Instantiate(spooder_web, point.position, Quaternion.Euler(point.rotation.x, point.rotation.y, point.eulerAngles.z + 180)) as GameObject;
             }
         }
     }
