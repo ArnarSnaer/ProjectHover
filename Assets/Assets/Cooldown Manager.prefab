@@ -89,7 +89,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7385526585908160240}
+  - component: {fileID: 2241808360692205595}
   - component: {fileID: 2577821817009552463}
   m_Layer: 0
   m_Name: UI Right
@@ -98,20 +98,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7385526585908160240
-Transform:
+--- !u!224 &2241808360692205595
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7763413800950315286}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.9844368, y: -0.42616794, z: -4.704129}
+  m_LocalPosition: {x: 0, y: 0, z: -4.704131}
   m_LocalScale: {x: 41.446945, y: 41.446945, z: 40.502995}
   m_Children: []
   m_Father: {fileID: 1983629498091787295}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0.00000014901161}
+  m_SizeDelta: {x: 19.2, y: 10.8}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &2577821817009552463
 SpriteRenderer:
   m_ObjectHideFlags: 0
