@@ -432,6 +432,11 @@ PrefabInstance:
       propertyPath: radius
       value: 4.4
       objectReference: {fileID: 0}
+    - target: {fileID: 3618507288450559826, guid: 5fbde6cd334f08a4a9ab212efcbbaf94,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3618507288450559829, guid: 5fbde6cd334f08a4a9ab212efcbbaf94,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -496,6 +501,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618507288450559916, guid: 5fbde6cd334f08a4a9ab212efcbbaf94,
+        type: 3}
+      propertyPath: damage_amount
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94,
         type: 3}

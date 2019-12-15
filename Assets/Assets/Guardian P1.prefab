@@ -517,7 +517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFiring: 0
   bullet: {fileID: 8339096053138204986, guid: 58a6a6893da52a7418318b57d0eeb85e, type: 3}
-  bulletSpeed: 10
+  bulletSpeed: 15
   cooldown: 0.3
   shotCounter: 0
   firePoint: {fileID: 4684219500989732956}
