@@ -6,6 +6,7 @@ public class bulletPhysics : MonoBehaviour
 {
 
     private int bullet_damage = 10;
+    public GameObject explosionRef;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class bulletPhysics : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D enemy){
     if(enemy != null){
+            Instantiate(explosionRef, this.transform.position, Quaternion.identity);
             if(enemy.gameObject.tag == "enemy"){
                 Destroy (this.gameObject);
                 enemyHealth damage = enemy.gameObject.GetComponent<enemyHealth>();

@@ -42,7 +42,6 @@ public class CooldownLogic : MonoBehaviour
         {
             skill1Image.fillAmount -= 1 / skill1Cooldown * Time.deltaTime;
             float timer = skill1Image.fillAmount * 10;
-            GetComponentsInChildren<Text>()[0].text = timer.ToString("F0");
 
             if (skill1Image.fillAmount <= 0)
             {
@@ -62,7 +61,6 @@ public class CooldownLogic : MonoBehaviour
         {
             skill2Image.fillAmount -= 1 / skill2Cooldown * Time.deltaTime;
             float timer = skill2Image.fillAmount * 10;
-            GetComponentsInChildren<Text>()[1].text = timer.ToString("F0");
 
             if (skill2Image.fillAmount <= 0)
             {

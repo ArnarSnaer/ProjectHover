@@ -119,7 +119,7 @@ MonoBehaviour:
   repathRate: 0.5
   canSearch: 1
   canMove: 1
-  maxSpeed: 7
+  maxSpeed: 5
   gravity: {x: NaN, y: NaN, z: NaN}
   groundMask:
     serializedVersion: 2
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0af2d0dbb1a78ba45823c1ae5d10e852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage_amount: 15
+  damage_amount: 10
 --- !u!114 &3618507288450559917
 MonoBehaviour:
   m_ObjectHideFlags: 0

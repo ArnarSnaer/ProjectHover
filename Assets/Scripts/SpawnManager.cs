@@ -7,11 +7,6 @@ using UnityEngine.SceneManagement;
 public class Wave
 {
     public GameObject [] EnemiesPerWave;
-    public GameObject rusher;
-    public GameObject turtle;
-    public GameObject shooter;
-    public GameObject shielder;
-    public GameObject spooder;
 }
 
 public class SpawnManager : MonoBehaviour

@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public HealthBar healthBar;
     public static HealthSystem playerHealth;
     public GameObject explosionRef;
+    public AudioSource death;
 
 
     // Start is called before the first frame update
@@ -45,13 +46,13 @@ public class GameManager : MonoBehaviour
         Instantiate(explosionRef, player1.transform.position, Quaternion.identity);
         Destroy(player2.gameObject);
         Instantiate(explosionRef, player2.transform.position, Quaternion.identity);
+        death.Play();
 
         StartCoroutine(Delay());
     }
 
     IEnumerator Delay()
     {
-        Debug.Log("Goes off!");
         yield return new WaitForSeconds(3);
         SceneManager.LoadScene("GameOver");
     }
