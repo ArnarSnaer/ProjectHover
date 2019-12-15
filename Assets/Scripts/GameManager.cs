@@ -43,10 +43,10 @@ public class GameManager : MonoBehaviour
         TankMovement[] players = FindObjectsOfType<TankMovement>();
         TankMovement player1 = players[0];
         TankMovement player2 = players[1];
-        Destroy(player1.gameObject);
         Instantiate(explosionRef, player1.transform.position, Quaternion.identity);
-        Destroy(player2.gameObject);
+        Destroy(player1.gameObject);
         Instantiate(explosionRef, player2.transform.position, Quaternion.identity);
+        Destroy(player2.gameObject);
         death.Play();
 
         StartCoroutine(Delay());

@@ -337,6 +337,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6940909260427833852, guid: fa318b765b0955c4294a5dba11256fa3,
+        type: 3}
+      propertyPath: m_TagString
+      value: OutOfBounds
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa318b765b0955c4294a5dba11256fa3, type: 3}
 --- !u!4 &301616939 stripped
@@ -1369,12 +1374,39 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!4 &1059445978 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3917405101899591550, guid: 0fc371b9583dbaa47b794460f9388c8e,
-    type: 3}
-  m_PrefabInstance: {fileID: 3917405102287287204}
+--- !u!1 &1059445977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1059445978}
+  m_Layer: 0
+  m_Name: ArenaUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1059445978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059445977}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -399.1092, y: -252.42859, z: -3822.1416}
+  m_LocalScale: {x: 1.5503876, y: 1.5503876, z: 1.5503876}
+  m_Children:
+  - {fileID: 1594412156}
+  - {fileID: 292261814}
+  - {fileID: 1922172363}
+  m_Father: {fileID: 1961841637}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1084905678 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2461843543091807318, guid: 3c35835c074e8894f837caf100191013,
@@ -1877,6 +1909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8265407848671082126, guid: 51bd1b4e7b54a7449b174b14135603fc, type: 3}
+    - {fileID: 4923260630537279024, guid: 51bd1b4e7b54a7449b174b14135603fc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 51bd1b4e7b54a7449b174b14135603fc, type: 3}
 --- !u!1001 &1555938134
 PrefabInstance:
@@ -3016,18 +3049,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Waves:
   - EnemiesPerWave:
-    - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
-    - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
-    - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
-    - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
-    - {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059, type: 3}
-    - {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059, type: 3}
+    - {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4, type: 3}
+    - {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4, type: 3}
+    - {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4, type: 3}
+    - {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4, type: 3}
+    - {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4, type: 3}
+    - {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4, type: 3}
   - EnemiesPerWave:
     - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
     - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
     - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
     - {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059, type: 3}
     - {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059, type: 3}
+    - {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059, type: 3}
+    - {fileID: 3618507288450559918, guid: 956c9510c6f2b0f4aa4f8b9af2b0de26, type: 3}
+    - {fileID: 3618507288450559918, guid: 956c9510c6f2b0f4aa4f8b9af2b0de26, type: 3}
+    - {fileID: 3618507288450559918, guid: 956c9510c6f2b0f4aa4f8b9af2b0de26, type: 3}
+    - {fileID: 3618507288450559918, guid: 956c9510c6f2b0f4aa4f8b9af2b0de26, type: 3}
+  - EnemiesPerWave:
+    - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
+    - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
+    - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
+    - {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059, type: 3}
+    - {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059, type: 3}
+    - {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059, type: 3}
+    - {fileID: 3618507288450559918, guid: 956c9510c6f2b0f4aa4f8b9af2b0de26, type: 3}
+    - {fileID: 3618507288450559918, guid: 956c9510c6f2b0f4aa4f8b9af2b0de26, type: 3}
+    - {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4, type: 3}
+    - {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4, type: 3}
+  - EnemiesPerWave:
+    - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
+    - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
+    - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
+    - {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059, type: 3}
+    - {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059, type: 3}
+    - {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059, type: 3}
+    - {fileID: 3618507288450559918, guid: 956c9510c6f2b0f4aa4f8b9af2b0de26, type: 3}
+    - {fileID: 3618507288450559918, guid: 956c9510c6f2b0f4aa4f8b9af2b0de26, type: 3}
+    - {fileID: 3618507288450559918, guid: 956c9510c6f2b0f4aa4f8b9af2b0de26, type: 3}
+    - {fileID: 3618507288450559918, guid: 956c9510c6f2b0f4aa4f8b9af2b0de26, type: 3}
   SpawnPoints:
   - {fileID: 1864212992}
   - {fileID: 1106493268}
