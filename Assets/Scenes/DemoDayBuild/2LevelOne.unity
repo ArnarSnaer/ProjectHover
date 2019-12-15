@@ -2991,7 +2991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Waves:
-  - EnemiesPerWave: 1
+  - EnemiesPerWave: 5
     rusher: {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94,
       type: 3}
     turtle: {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059,

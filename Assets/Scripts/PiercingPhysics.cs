@@ -51,7 +51,7 @@ public class PiercingPhysics : MonoBehaviour
     IEnumerator Piercing()
     {
         body.isKinematic = true;
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.3f);
         body.isKinematic = false;
     }
 }
