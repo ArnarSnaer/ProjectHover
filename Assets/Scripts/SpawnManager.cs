@@ -17,12 +17,14 @@ public class SpawnManager : MonoBehaviour
     public AudioSource spawnEnemy;
     public AudioSource WaveDone;
     public GameObject ExitPortal;
+    public TMPro.TextMeshProUGUI waveLabel;
     private int _totalEnemiesInCurrentWave;
     private int _enemiesInWaveLeft;
     private int _spawnedEnemies;
 
     private int _currentWave;
     private int _totalWaves;
+    private int currWave = 1;
 
     public int turtle_switch = 0;
 
@@ -32,6 +34,7 @@ public class SpawnManager : MonoBehaviour
 	{
 	    _currentWave = -1; // avoid off by 1
 	    _totalWaves = Waves.Length - 1; // adjust, because we're using 0 index
+        waveLabel.text = "Wave: " + currWave + " / " + Waves.Length;
         StartNextWave();
 	}
 
@@ -43,7 +46,8 @@ public class SpawnManager : MonoBehaviour
         if (_currentWave > _totalWaves)
         {
             Debug.Log("Next level!");
-            Instantiate(ExitPortal, new Vector3(0, -2, 0), Quaternion.identity);
+            waveLabel.text = "Level complete!";
+            Instantiate(ExitPortal, new Vector3(0, 0, 0), Quaternion.identity);
             // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
@@ -93,6 +97,7 @@ public class SpawnManager : MonoBehaviour
     // called by an enemy when they're defeated
     public void EnemyDefeated()
     {
+        Debug.Log("Enemy kill");
         _enemiesInWaveLeft--;
         
         // We start the next wave once we have spawned and defeated them all
@@ -101,6 +106,8 @@ public class SpawnManager : MonoBehaviour
             WaveDone.Play();
             GameManager.healPlayers(25);
             StartNextWave();
+            currWave += 1;
+            waveLabel.text = "Wave: " + currWave + " / " + Waves.Length;
         }
     }
 }

@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public static HealthSystem playerHealth;
     public GameObject explosionRef;
     public AudioSource death;
+    public TMPro.TextMeshProUGUI scoreLabel;
 
 
     // Start is called before the first frame update
