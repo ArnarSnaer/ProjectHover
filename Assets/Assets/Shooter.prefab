@@ -501,7 +501,7 @@ MonoBehaviour:
   isFiring: 0
   bullet: {fileID: 8339096053138204986, guid: c5adcb090b865734398d057f9d536bcc, type: 3}
   bulletSpeed: 10
-  cooldown: 0.5
+  cooldown: 1
   shotCounter: 0
   firePoint: {fileID: 3862650133376393410}
   shoot: {fileID: 0}

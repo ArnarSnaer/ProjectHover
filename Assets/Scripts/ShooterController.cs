@@ -5,7 +5,7 @@ using UnityEngine;
 public class ShooterController : MonoBehaviour
 {
     // Start is called before the first frame update
-    private float min_distance = 4.0f;
+    private float min_distance = 5.0f;
     Pathfinding.IAstarAI ai_star;
     private float base_speed;
     private Transform target;
