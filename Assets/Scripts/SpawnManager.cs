@@ -107,7 +107,7 @@ public class SpawnManager : MonoBehaviour
         enemyLabel.text = "Enemies left: " + enemiesLeft;
         
         // We start the next wave once we have spawned and defeated them all
-        if (_enemiesInWaveLeft <= 0 && _spawnedEnemies >= _totalEnemiesInCurrentWave)
+        if ((enemiesLeft <= 0) && (_spawnedEnemies >= _totalEnemiesInCurrentWave))
         {
             WaveDone.Play();
             GameManager.healPlayers(25);
