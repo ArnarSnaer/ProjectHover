@@ -33,7 +33,7 @@ public class mainMenu : MonoBehaviour
     {
         // Loads the next scene in the queue.
         // File -> Build Settings -> Scenes
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Story");
         Debug.Log(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
