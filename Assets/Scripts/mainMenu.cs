@@ -37,6 +37,11 @@ public class mainMenu : MonoBehaviour
         Debug.Log(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void Tutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
+
     public void QuitGame()
     {
         Debug.Log("QUIT");
