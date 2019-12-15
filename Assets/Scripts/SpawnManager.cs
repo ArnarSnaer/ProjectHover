@@ -55,7 +55,7 @@ public class SpawnManager : MonoBehaviour
 
         _totalEnemiesInCurrentWave = Waves[_currentWave].EnemiesPerWave.Length;
         enemiesLeft = _totalEnemiesInCurrentWave;
-        enemyLabel.text = "Enemies left: " + _totalEnemiesInCurrentWave;
+        enemyLabel.text = "Enemies left: " + enemiesLeft;
         _enemiesInWaveLeft = 0;
         _spawnedEnemies = 0;
 
