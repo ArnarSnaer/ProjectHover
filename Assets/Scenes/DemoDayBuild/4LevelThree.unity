@@ -1654,7 +1654,7 @@ MonoBehaviour:
   - {fileID: 39329648}
   - {fileID: 1473781465}
   - {fileID: 1886067653}
-  TimeBetweenEnemies: 2
+  TimeBetweenEnemies: 1
   spawnEnemy: {fileID: 367365804}
   WaveDone: {fileID: 367365803}
   ExitPortal: {fileID: 1680988598}

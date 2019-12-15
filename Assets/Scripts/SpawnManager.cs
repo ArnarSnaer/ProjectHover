@@ -94,7 +94,7 @@ public class SpawnManager : MonoBehaviour
             _enemiesInWaveLeft++;
             yield return new WaitForSeconds(TimeBetweenEnemies);
         }
-        TimeBetweenEnemies -= 0.5f;
+        TimeBetweenEnemies -= 0.25f;
         yield return null;
     }
     

@@ -3102,7 +3102,7 @@ MonoBehaviour:
   SpawnPoints:
   - {fileID: 1864212992}
   - {fileID: 1106493268}
-  TimeBetweenEnemies: 2
+  TimeBetweenEnemies: 1.25
   spawnEnemy: {fileID: 2002701127}
   WaveDone: {fileID: 2002701130}
   ExitPortal: {fileID: 1084905678}
