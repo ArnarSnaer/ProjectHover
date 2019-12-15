@@ -1513,6 +1513,7 @@ MonoBehaviour:
   WaveDone: {fileID: 367365803}
   ExitPortal: {fileID: 1680988598}
   waveLabel: {fileID: 1751683632}
+  enemyLabel: {fileID: 1751683633}
   turtle_switch: 0
 --- !u!4 &367365806
 Transform:
@@ -4259,12 +4260,22 @@ PrefabInstance:
     - target: {fileID: 5267615619755169961, guid: 2f270cad509647d4eaa094b2b4950165,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 92.1
+      value: 94.6
       objectReference: {fileID: 0}
     - target: {fileID: 5267615619755169961, guid: 2f270cad509647d4eaa094b2b4950165,
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -4.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5499130714479898297, guid: 2f270cad509647d4eaa094b2b4950165,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 93.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5499130714479898297, guid: 2f270cad509647d4eaa094b2b4950165,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 264.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f270cad509647d4eaa094b2b4950165, type: 3}
@@ -4277,6 +4288,18 @@ Transform:
 --- !u!114 &1751683632 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5267615619755169960, guid: 2f270cad509647d4eaa094b2b4950165,
+    type: 3}
+  m_PrefabInstance: {fileID: 1751683630}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1751683633 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5499130714479898302, guid: 2f270cad509647d4eaa094b2b4950165,
     type: 3}
   m_PrefabInstance: {fileID: 1751683630}
   m_PrefabAsset: {fileID: 0}
