@@ -23,7 +23,7 @@ public class SpawnManager : MonoBehaviour
     private int _totalEnemiesInCurrentWave;
     private int _enemiesInWaveLeft;
     private int _spawnedEnemies;
-
+    private int enemiesLeft = 0;
     private int _currentWave;
     private int _totalWaves;
     private int currWave = 1;
@@ -54,6 +54,7 @@ public class SpawnManager : MonoBehaviour
         }
 
         _totalEnemiesInCurrentWave = Waves[_currentWave].EnemiesPerWave.Length;
+        enemiesLeft = _totalEnemiesInCurrentWave;
         enemyLabel.text = "Enemies left: " + _totalEnemiesInCurrentWave;
         _enemiesInWaveLeft = 0;
         _spawnedEnemies = 0;
@@ -102,7 +103,8 @@ public class SpawnManager : MonoBehaviour
     {
         Debug.Log("Enemy kill");
         _enemiesInWaveLeft--;
-        enemyLabel.text = "Enemies left: " + _enemiesInWaveLeft;
+        enemiesLeft--;
+        enemyLabel.text = "Enemies left: " + enemiesLeft;
         
         // We start the next wave once we have spawned and defeated them all
         if (_enemiesInWaveLeft <= 0 && _spawnedEnemies >= _totalEnemiesInCurrentWave)

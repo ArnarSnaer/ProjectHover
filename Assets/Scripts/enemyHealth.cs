@@ -49,7 +49,6 @@ public class enemyHealth : MonoBehaviour
     }
     private void Death(){
         _spawnManager.EnemyDefeated();
-        Debug.Log("Made it!");
         Instantiate(explosionRef, this.transform.position, Quaternion.identity);
     }
 
