@@ -9,6 +9,7 @@ TagManager:
   - SpriteRenderer
   - EnemyBullet
   - PlayerBullet
+  - OutOfBounds
   layers:
   - Default
   - TransparentFX
