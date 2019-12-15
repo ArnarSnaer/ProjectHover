@@ -422,6 +422,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6940909260427833852, guid: fa318b765b0955c4294a5dba11256fa3,
+        type: 3}
+      propertyPath: m_TagString
+      value: OutOfBounds
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa318b765b0955c4294a5dba11256fa3, type: 3}
 --- !u!4 &301616939 stripped
@@ -1426,7 +1431,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LEVEL COMPLETE!
+  m_Text: 'Wave '
 --- !u!222 &1058879856
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2563,6 +2568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8265407848671082126, guid: 51bd1b4e7b54a7449b174b14135603fc, type: 3}
+    - {fileID: 4923260630537279024, guid: 51bd1b4e7b54a7449b174b14135603fc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 51bd1b4e7b54a7449b174b14135603fc, type: 3}
 --- !u!1001 &1555938134
 PrefabInstance:
@@ -3779,12 +3785,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Waves:
   - EnemiesPerWave:
-    - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
-    - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
-    - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
-    - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
-    - {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059, type: 3}
-    - {fileID: 2250939308692478807, guid: 48220079210f4014e86969d6d7a30059, type: 3}
+    - {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4, type: 3}
+    - {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4, type: 3}
+    - {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4, type: 3}
+    - {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4, type: 3}
+    - {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4, type: 3}
+    - {fileID: 5163287766260426593, guid: e7fccd5ac4a636640829ea3bd98b55c4, type: 3}
   - EnemiesPerWave:
     - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
     - {fileID: 3618507288450559918, guid: 5fbde6cd334f08a4a9ab212efcbbaf94, type: 3}
@@ -4137,7 +4143,7 @@ PrefabInstance:
     - target: {fileID: 3655393151595017123, guid: bf8bc67aa8761854c90293195e2f53a8,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3655393151595017124, guid: bf8bc67aa8761854c90293195e2f53a8,
         type: 3}

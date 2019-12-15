@@ -44,8 +44,8 @@ public class enemyHealth : MonoBehaviour
     }
 
     private void HealthSystem_Ded(object sender, System.EventArgs e){
-        Death();
         Destroy(this.gameObject);
+        Death();
     }
     private void Death(){
         _spawnManager.EnemyDefeated();
