@@ -30,7 +30,7 @@ public class BarrelAbilities : MonoBehaviour
     {
         playerIndex = gameObject.GetComponentInParent<TankMovement>().playerIndex;
         anim = gameObject.GetComponent<Animation>();
-        piercingCountdown = 0.0f;
+        piercingCountdown = l1Cooldown;
         grenadeCountdown = 0.0f;
         piercing_shots = max_piercing;
 
@@ -39,13 +39,12 @@ public class BarrelAbilities : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (piercingCountdown > 0 || piercing_shots < max_piercing)
+        if (piercingCountdown > 0 && piercing_shots < max_piercing)
         {
-            Debug.Log(piercing_shots);
             piercingCountdown -= Time.deltaTime;
             if (piercingCountdown < 0){
                 this.piercing_shots += 1;
-                piercingCountdown = l2Cooldown;
+                piercingCountdown = l1Cooldown;
             }
         } 
         if (grenadeCountdown > 0)
