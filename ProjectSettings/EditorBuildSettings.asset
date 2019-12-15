@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DemoDayBuild/Tutorial.unity
     guid: d5316febf2385214c9d369187957b106
+  - enabled: 1
+    path: Assets/Scenes/DemoDayBuild/Story.unity
+    guid: b5e798922ce5b184faaacebfb0f2bf53
   m_configObjects: {}
