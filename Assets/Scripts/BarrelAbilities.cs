@@ -32,19 +32,19 @@ public class BarrelAbilities : MonoBehaviour
         anim = gameObject.GetComponent<Animation>();
         piercingCountdown = l1Cooldown;
         grenadeCountdown = 0.0f;
-        piercing_shots = max_piercing;
+        //piercing_shots = max_piercing;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (piercingCountdown > 0 && piercing_shots < max_piercing)
+        if (piercingCountdown > 0)// && piercing_shots < max_piercing)
         {
             piercingCountdown -= Time.deltaTime;
             if (piercingCountdown < 0){
-                this.piercing_shots += 1;
-                piercingCountdown = l1Cooldown;
+                //this.piercing_shots += 1;
+                piercingCountdown = 0;
             }
         } 
         if (grenadeCountdown > 0)
@@ -56,9 +56,10 @@ public class BarrelAbilities : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Input.GetButtonDown("P" + playerIndex + " L1") && piercing_shots > 0)
+        if (Input.GetButtonDown("P" + playerIndex + " L1") && piercingCountdown == 0.0f)
         {
-            this.piercing_shots -= 1;
+            //this.piercing_shots -= 1;
+            piercingCountdown = l1Cooldown;
             Piercing();
         }
 
