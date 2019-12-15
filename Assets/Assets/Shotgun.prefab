@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ca2b204abec6464dbf17df59f28defb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletDamage: 15
-  force: 0
+  bulletDamage: 20
   ice: {fileID: 0}
 --- !u!1001 &5364409800627650941
 PrefabInstance:
